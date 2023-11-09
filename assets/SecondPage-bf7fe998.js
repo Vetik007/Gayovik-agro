@@ -1,8 +1,9 @@
-import{L as t,j as f}from"./index-a0adc380.js";import{n as o}from"./emotion-styled.browser.esm-e788d484.js";import{W as e}from"./App.styled-1a96f7df.js";const a=o.div`
+import{L as t,j as f}from"./index-ed264399.js";import{n as o}from"./emotion-styled.browser.esm-23cd9f19.js";import{W as e}from"./App.styled-3f482d3c.js";const a=o.div`
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 350px;
+  width: 330px;
 `,x=o.div`
   text-align: center;
 `,n=o.h1`
