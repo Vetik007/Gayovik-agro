@@ -1,16 +1,26 @@
-import { Container, Title, StyledImage } from './FirstPage.styled';
+import { Container, Title, Block,  } from './FirstPage.styled';
 import { Wrapper } from '../../App.styled'
-import example from '../../assets/example.png';
+// import example from '../../assets/example.png';
 
 const FirstPage = () => {
   return (
+    
     <Wrapper>
     <Container>
-      <Title>First Page</Title>
-      <StyledImage src={example} alt="Example" />
+      <Block>
+        <Title>First Page</Title>
+        </Block>
       </Container>
       </Wrapper>
   );
 };
 
 export default FirstPage;
+
+
+{/* <Wrapper>
+    <Container>
+      <Title>First Page</Title>
+      <StyledImage src={example} alt="Example" />
+      </Container>
+    </Wrapper> */}

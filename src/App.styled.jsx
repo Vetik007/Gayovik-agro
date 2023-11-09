@@ -46,9 +46,9 @@ import styled from '@emotion/styled';
 import example from './assets/example.png';
 
 export const Wrapper = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-image: url(${example});
-  background-repeat: no-repeat;
-  background-position: top center;
+  /* width: 100%; */
+  /* height: 100vh; */
+  /* background-image: url(${example}); */
+  /* background-repeat: no-repeat; */
+  /* background-position: top center; */
 `;
