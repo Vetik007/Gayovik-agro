@@ -5,10 +5,25 @@ export const HeaderContainer = styled.div`
   padding: 10px;
 `;
 
+export const NavigationWrapper = styled.div`
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background-color: #FFFFFF1A; */
+   background-color: #597887 ;
+  width: 1440px;
+`;
+
+
+
+
+
 export const Navigation = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: #FFFFFF1A;
+  width: 1440px; */
 `;
 
 export const StyledLink = styled(Link)`
@@ -64,6 +79,7 @@ export const ContactList = styled.ul`
     display: flex;
     width: 1440px;
      gap: 20px;
+     margin-left: 32px;
 
      color: #FFFFFF;
 font-family: Poppins;
@@ -72,6 +88,14 @@ font-size: 12px;
 line-height: 18px;
     
 `;
+
+
+export const ContactItem = styled.li`
+    display: flex;
+    align-items: center;
+    gap: 12px;
+`;
+
 
 export const InputStyled = styled.input`
     width: 856px;
@@ -123,10 +147,12 @@ export const FormStyled = styled.form`
   align-items: center;
   /* width: 100%; */
   max-width: 856px;
-  margin-left: 250px;
+  height: 40px;
+
+  margin-left: 60px;
   
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   overflow: hidden;
 
 padding-left: 16px;
@@ -135,11 +161,46 @@ padding-left: 16px;
 `;
 
 export const FormWrapper = styled.div`
+display: flex;
+align-items: center;
 width: 1440px;
+/* height: 40px; */
    background-color: #2B4D5E;
-   padding-top: 17px;
-   padding-bottom: 16px;
+   /* padding-top: 17px;
+   padding-bottom: 16px; */
 `;
+
+export const Paral = styled.div`
+position: relative;
+ width: 165px;
+  height: 0;
+  border-top: 72px solid #C00000;
+  /* border-bottom: 72px solid #C00000; Высота трапеции */
+  border-left: 0px solid transparent; /* Длина верхней стороны */
+  border-right: 23px solid transparent; /* Длина верхней стороны */
+
+`;
+
+export const Text = styled.p`
+ position: absolute;
+    top: -50px;
+    left: 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+
+`;
+
+
+
+
+
+
+
+
+
+
+
 
 
 

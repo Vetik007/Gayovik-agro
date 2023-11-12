@@ -1,4 +1,11 @@
+import { NavLink } from "react-router-dom";
+
+
 import { BiSearch } from 'react-icons/bi';
+// import Rectangle from '../../../public/Rectangle @3x.jpg'
+import { FiMail } from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi";
+
 
 import {
   HeaderContainer,
@@ -10,7 +17,12 @@ import {
   InputStyled,
   ButtonStyled,
   FormStyled,
-  FormWrapper
+  FormWrapper,
+  Paral,
+  Text,
+  ContactItem,
+  NavigationWrapper
+  // Images
 } from './Header.styled';
 import sprite from '../../assets/sprite.svg';
 
@@ -20,18 +32,31 @@ export const Header = () => {
 
        <HeaderContact>
         <ContactList>
-          <li>067-111-111-111</li>
-          <li>agro@gmail.com</li>
-          <li>Наше місцезнаходження</li>
+          <ContactItem>
+            <FiPhoneCall />
+            <NavLink to="tel:+3067-111-11-11">
+              067-111-111-111</NavLink>
+          </ContactItem>
+          <ContactItem>
+            <FiMail />
+            <NavLink to='mailto:agro@gmail.com'>
+              agro@gmail.com</NavLink>
+          </ContactItem>
+          <ContactItem>
+            <NavLink to="https://maps.app.goo.gl/UbRt4DQgzanKoj3j9" target="blank" rel="noreferrer noopener nofollow">
+              Наше місцезнаходження</NavLink>
+          </ContactItem>
         </ContactList>
       </HeaderContact>
 
       <FormWrapper>
+       
+        <Paral>
+          <Text>ГАЙОВИК-АГРО</Text>
+        </Paral>
         
         <FormStyled>
           
-
-
           <InputStyled type="text" placeholder="Пошук за номером деталі, описом, маркою, моделлю..." />
         <ButtonStyled type="submit">
           <BiSearch size="24" />
@@ -41,18 +66,14 @@ export const Header = () => {
 
       </FormWrapper>
 
-
-
-
-
-
-      <Navigation>
+      <NavigationWrapper>
+        <Navigation>
 
         <StyledLink to="/">
           <IconWrapper>
             <use href={`${sprite}#icon-logo`} />
           </IconWrapper>
-          Home
+          Пошук за брендом
         </StyledLink>
 
 
@@ -60,7 +81,7 @@ export const Header = () => {
           <IconWrapper>
             <use href={`${sprite}#icon-logo`} />
           </IconWrapper>
-          First
+          Пошук за типом
         </StyledLink>
         <StyledLink to="/second">
           <IconWrapper>
@@ -69,6 +90,17 @@ export const Header = () => {
           Second
         </StyledLink>
       </Navigation>
+
+      </NavigationWrapper>
+
+      
+
+
+
+
+
+
+      
     </HeaderContainer>
   );
 };
