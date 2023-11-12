@@ -1,4 +1,4 @@
-import{n as e}from"./emotion-styled.browser.esm-bb3d702d.js";const a="/Gayovik-agro/assets/example-def0f7cb.png",r=e.div`
+import{n as e}from"./emotion-styled.browser.esm-5e41f33e.js";const a="/Gayovik-agro/assets/example-def0f7cb.png",r=e.div`
   /* width: 100%; */
   /* height: 100vh; */
   /* background-image: url(${a}); */
