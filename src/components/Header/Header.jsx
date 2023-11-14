@@ -1,10 +1,13 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
-
+// import ShoppingCart from "../../../public/ShoppingCart.svg"
 import { BiSearch } from 'react-icons/bi';
 // import Rectangle from '../../../public/Rectangle @3x.jpg'
-import { FiMail } from "react-icons/fi";
-import { FiPhoneCall } from "react-icons/fi";
+import sprite from '../../images/sprite.svg'; 
+
+
+// import react from "../../assets/react.svg"
+
 
 
 import {
@@ -18,13 +21,22 @@ import {
   ButtonStyled,
   FormStyled,
   FormWrapper,
-  Paral,
-  Text,
+  Parallax,
+  // Text,
   ContactItem,
-  NavigationWrapper
+  NavigationWrapper,
+  PhoneIcon,
+  MailIcon,
+  MapIcon,
+  LinkHome,
+  Register,
+  AuzLink,
+  AuzText,
+  CartButton
+  // Basket
   // Images
 } from './Header.styled';
-import sprite from '../../assets/sprite.svg';
+// import sprite from '../../assets/sprite.svg';
 
 export const Header = () => {
   return (
@@ -33,27 +45,29 @@ export const Header = () => {
        <HeaderContact>
         <ContactList>
           <ContactItem>
-            <FiPhoneCall />
-            <NavLink to="tel:+3067-111-11-11">
-              067-111-111-111</NavLink>
+            <PhoneIcon />
+            <StyledLink to="tel:+3067-111-11-11">
+              067-111-111-111</StyledLink>
           </ContactItem>
           <ContactItem>
-            <FiMail />
-            <NavLink to='mailto:agro@gmail.com'>
-              agro@gmail.com</NavLink>
+            <MailIcon />
+            <StyledLink to='mailto:agro@gmail.com'>
+              agro@gmail.com</StyledLink>
           </ContactItem>
           <ContactItem>
-            <NavLink to="https://maps.app.goo.gl/UbRt4DQgzanKoj3j9" target="blank" rel="noreferrer noopener nofollow">
-              Наше місцезнаходження</NavLink>
+            <MapIcon />
+            <StyledLink to="https://maps.app.goo.gl/AQT1NfUeCHiqVSot7" target="blank" rel="noreferrer noopener nofollow">
+              Наше місцезнаходження</StyledLink>
           </ContactItem>
         </ContactList>
       </HeaderContact>
 
       <FormWrapper>
        
-        <Paral>
-          <Text>ГАЙОВИК-АГРО</Text>
-        </Paral>
+        <Parallax>
+          {/* <Text>ГАЙОВИК-АГРО</Text> */}
+          <LinkHome to="/">ГАЙОВИК-АГРО</LinkHome>
+        </Parallax>
         
         <FormStyled>
           
@@ -63,6 +77,25 @@ export const Header = () => {
         </ButtonStyled>
         
         </FormStyled>
+
+        <Register>
+          <AuzLink to="/signup">SignUp</AuzLink>
+          <AuzText>/</AuzText>
+          <AuzLink to="/signin">LOG IN</AuzLink>
+        </Register>
+
+        <CartButton type="submit">
+          <svg width="24" height="24">
+            <use href={`${sprite}#icon-cart`} />
+          </svg>
+        </CartButton>
+        
+       
+
+        
+
+
+
 
       </FormWrapper>
 
@@ -104,3 +137,20 @@ export const Header = () => {
     </HeaderContainer>
   );
 };
+
+
+//  <Basket>
+
+//           <ShoppingCartIcon />
+
+
+//           {/* <svg src={ShoppingCart} alt="SVG image">
+          
+//           </svg>  */}
+
+//           {/* <img src={ShoppingCart} alt="SVG image"></img> */}
+
+
+ 
+
+//         </Basket>

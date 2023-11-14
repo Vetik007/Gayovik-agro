@@ -42,6 +42,8 @@ import { lazy } from 'react';
 import SharedLayout from './components/SharedLayout/SharedLayout';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
+const SignUpPage = lazy(() => import('./pages/SignUpPage/SignUpPage'));
+const SignInPage = lazy(() => import('./pages/SignInPage/SignInPage'));
 const FirstPage = lazy(() => import('./pages/FirstPage/FirstPage'))  ;
 const SecondPage = lazy(() => import('./pages/SecondPage/SecondPage')) ;
 const HalfPage = lazy(() => import('./pages/HalfPage/HalfPage'))  ;
@@ -55,7 +57,9 @@ function App() {
     
       <Routes>
         <Route path="/" element={<SharedLayout />}>
-          <Route index element={<HomePage />} />
+        <Route index element={<HomePage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/signin" element={<SignInPage />} />
           <Route path="/first" element={<FirstPage />} />
           <Route path="/second" element={<SecondPage />}>
             <Route path=":half" element={<HalfPage />} />
