@@ -65,7 +65,6 @@ export const Header = () => {
       <FormWrapper>
        
         <Parallax>
-          {/* <Text>ГАЙОВИК-АГРО</Text> */}
           <LinkHome to="/">ГАЙОВИК-АГРО</LinkHome>
         </Parallax>
         
@@ -88,17 +87,12 @@ export const Header = () => {
           <svg width="24" height="24">
             <use href={`${sprite}#icon-cart`} />
           </svg>
+
         </CartButton>
-        
-       
-
-        
-
-
-
 
       </FormWrapper>
 
+      
       <NavigationWrapper>
         <Navigation>
 

@@ -7,7 +7,7 @@ import { FiMapPin } from "react-icons/fi";
 
 
 export const HeaderContainer = styled.div`
-  padding: 10px;
+  /* padding: 10px; */
 `;
 
 export const NavigationWrapper = styled.div`
@@ -63,6 +63,7 @@ export const PhoneIcon = styled(FiPhoneCall)`
   width: 16px;
   height: 16px;
   color: #ffffff;
+
 `;
 
 export const MailIcon = styled(FiMail)`
@@ -100,15 +101,15 @@ export const HeaderContact = styled.div`
 
 export const ContactList = styled.ul`
     display: flex;
-    width: 1440px;
+    /* width: 1440px; */
      gap: 20px;
      margin-left: 32px;
 
      color: #FFFFFF;
-font-family: Poppins;
-font-weight: 400;
-font-size: 12px;
-line-height: 18px;
+     font-family: Poppins;
+     font-weight: 400;
+     font-size: 12px;
+     line-height: 18px;
     
 `;
 
@@ -124,10 +125,10 @@ export const InputStyled = styled.input`
     display: inline-block;
    
   font: inherit;
-font-family: Poppins;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   
   border: none;
   outline: none;
@@ -142,17 +143,17 @@ line-height: 24px;
 
 export const ButtonStyled = styled.button`
     display: inline-block;
-  width: 48px;
-  height: 48px;
-  border: 0;
-  background-size: 70%;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.6;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  outline: none;
-  :hover {
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.6;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    outline: none;
+    :hover {
     opacity: 1;
   }
     
