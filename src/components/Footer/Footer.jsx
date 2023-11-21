@@ -1,103 +1,118 @@
 import {
-    FooterContainer,
-    CustomerSupport, 
-    SupportList,
-    SupportItem,
-    PhoneIcon,
-    StyledLink,
-    MailIcon,
-    SupportTextList,
-    SupportTextItem,
-    InfoBlock,
-    ProductsList,
-    ProductsTitle,
-    ProductsItem,
-    PpoductLink,
-    InfoList,
-    InfoTitle
-    // ListWrapper
-} from "./Footer.styled"
+  FooterContainer,
+  CustomerSupport,
+  SupportList,
+  SupportItem,
+  PhoneIcon,
+  StyledLink,
+  MailIcon,
+  SupportTextList,
+  SupportTextItem,
+  InfoSection,
+  ProductsList,
+  ProductsTitle,
+  ProductsItem,
+  PpoductLink,
+  InfoList,
+  InfoItem,
+  InfoTitle,
+  AuthList,
+  AuthItem,
+  AuthTitle,
+  ContactBlock,
+  ContactTitle,
+  ContactLink,
+  SocialList,
+  SocialItem,
+  // ListWrapper
+} from './Footer.styled';
 
 const Footer = () => {
+  return (
+    <FooterContainer>
+      <CustomerSupport className="CustomerSupport">
+        <SupportTextList>
+          <SupportTextItem>
+            Потрібна допомога з Вашим замовленням?
+          </SupportTextItem>
 
-    return (
-        <FooterContainer>
+          <SupportTextItem>
+            Наша служба підтримки завжди готова допомогти!
+          </SupportTextItem>
+        </SupportTextList>
 
-            <CustomerSupport className="CustomerSupport">
+        <SupportList>
+          <SupportItem>
+            <PhoneIcon />
+            <StyledLink to="tel:+3067-111-11-11">067-111-111-111</StyledLink>
+          </SupportItem>
 
-                <SupportTextList>
-                    <SupportTextItem>
-                    Потрібна допомога з Вашим замовленням? 
-                    </SupportTextItem>
+          <SupportItem>
+            <MailIcon />
+            <StyledLink to="mailto:agro@gmail.com">agro@gmail.com</StyledLink>
+          </SupportItem>
+        </SupportList>
+      </CustomerSupport>
 
-                    <SupportTextItem>
-                    Наша служба підтримки завжди готова допомогти!
-                    </SupportTextItem>
-                </SupportTextList>
-                
-                <SupportList>
-                    <SupportItem>
-                        <PhoneIcon />
-                        <StyledLink to="tel:+3067-111-11-11">
-              067-111-111-111</StyledLink>
-                    </SupportItem>
+      <InfoSection>
+        <ProductsList>
+          <ProductsItem>
+            <ProductsTitle>ПРОДУКЦІЯ</ProductsTitle>
+          </ProductsItem>
 
-                    <SupportItem>
-                        <MailIcon />
-                        <StyledLink to='mailto:agro@gmail.com'>
-              agro@gmail.com</StyledLink>
-                    </SupportItem>
+          <ProductsItem>
+            <PpoductLink to="./">Пошук за брендом</PpoductLink>
+          </ProductsItem>
 
-                    </SupportList>
+          <ProductsItem>
+            <PpoductLink to="./">Пошук за типом</PpoductLink>
+          </ProductsItem>
+        </ProductsList>
 
-            </CustomerSupport>
+        <InfoList>
+          <InfoItem>
+            <InfoTitle>ПИТАННЯ</InfoTitle>
+          </InfoItem>
 
-            <InfoBlock>
-                <ProductsTitle>
-                    Продукція
-                </ProductsTitle>
-                <ProductsList>
+          <InfoItem>Оплата</InfoItem>
 
-                    <ProductsItem>
-                        <PpoductLink to='./'>
-              Пошук за брендом</PpoductLink>
+          <InfoItem>Доставка</InfoItem>
 
-                    </ProductsItem>
+          <InfoItem>Повернення</InfoItem>
+        </InfoList>
 
-                    <ProductsItem>
-                        <PpoductLink to='./'>
-              Пошук за типом</PpoductLink>
-                    </ProductsItem>
+        <AuthList>
+          <AuthItem>
+            <AuthTitle>АКАУНТ</AuthTitle>
+          </AuthItem>
 
-                </ProductsList>
+          <AuthItem>Увійти</AuthItem>
 
-                <InfoTitle>
-                    Питання
-                </InfoTitle>
+          <AuthItem>Зареєструватись</AuthItem>
+        </AuthList>
 
-                <InfoList>
-                    Оплата
-                </InfoList>
+        <ContactBlock>
+          <ContactTitle>КОНТАКТИ</ContactTitle>
+          <ContactLink
+            to="https://maps.app.goo.gl/AQT1NfUeCHiqVSot7"
+            target="blank"
+            rel="noreferrer noopener nofollow"
+          >
+            Наше місцезнаходження
+          </ContactLink>
 
-                <InfoList>
-                    Доставка
-                </InfoList>
+          <SocialList>
+            <SocialItem>fasebook</SocialItem>
+            <SocialItem>telegram</SocialItem>
+            <SocialItem>viber</SocialItem>
+            <SocialItem></SocialItem>
+          </SocialList>
+        </ContactBlock>
+      </InfoSection>
 
-                <InfoList>
-                    Повернення
-                </InfoList>
-
-
-            </InfoBlock>
-
-
-
-      
-            <h1 >Hi Footer</h1>
-      
-        </FooterContainer>
-    );
-    
+      <h1>Hi Footer</h1>
+    </FooterContainer>
+  );
 };
 
 export default Footer;
