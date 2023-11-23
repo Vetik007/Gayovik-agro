@@ -123,12 +123,22 @@ export const ProductsItem = styled.li``;
 
 export const PpoductLink = styled(NavLink)``;
 
-export const InfoTitle = styled.h2``;
+export const InfoTitle = styled.h2`
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+`;
 
 export const InfoList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 24px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 `;
 
 export const InfoItem = styled.li``;
@@ -137,11 +147,21 @@ export const AuthList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 24px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 `;
 
 export const AuthItem = styled.li``;
 
-export const AuthTitle = styled.h2``;
+export const AuthTitle = styled.h2`
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+`;
 
 export const ContactBlock = styled.div`
   display: flex;
@@ -149,7 +169,12 @@ export const ContactBlock = styled.div`
   gap: 24px;
 `;
 
-export const ContactTitle = styled.h2``;
+export const ContactTitle = styled.h2`
+  font-family: Oswald;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+`;
 
 export const ContactLink = styled(NavLink)``;
 
@@ -157,6 +182,11 @@ export const SocialList = styled.ul`
   display: flex;
 
   gap: 24px;
+
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 `;
 
 export const SocialItem = styled.li``;
