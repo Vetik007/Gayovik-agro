@@ -1,4 +1,4 @@
-import{s as t,j as a}from"./index-35aa53ee.js";const f=t.h1`
+import{s as t,j as a}from"./index-438b5d8a.js";const f=t.h1`
   color: black;
   text-shadow:
     0 0 5px #00baff,
