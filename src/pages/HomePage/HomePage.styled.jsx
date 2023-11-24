@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { FiArrowRight } from 'react-icons/fi';
 
@@ -89,10 +90,70 @@ export const PromoButton = styled.button`
   }
 `;
 
-
 export const ButtonIcon = styled(FiArrowRight)`
   width: 16px;
   height: 16px;
   color: white;
 `;
 
+export const BrandsList = styled.ul`
+  display: flex;
+  justify-content: center;
+  margin-top: 88px;
+  margin-bottom: 74px;
+`;
+
+export const BrandsItem = styled.li``;
+
+export const BrandIcon = styled.svg`
+  width: 150px;
+  height: 63px;
+  background-color: #f1f1f2;
+`;
+
+export const BrandsLink = styled(NavLink)``;
+
+export const ShopCategory = styled.section``;
+
+export const ShopCategoryList = styled.ul`
+  background-color: white;
+`;
+
+export const ShopCategoryItem = styled.li`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  width: 364px;
+  height: 118px;
+  border: 1px solid #e6e6e7;
+  border-radius: 4px;
+`;
+
+export const CategoryLink = styled(NavLink)``;
+
+export const LinkIcon = styled(FiArrowRight)`
+  display: flex;
+  width: 16px;
+  height: 16px;
+  color: #2b4d5e;
+`;
+
+export const GidravlikIcon = styled.svg`
+  position: absolute;
+  width: 118px;
+  height: 116px;
+  right: 32px;
+  top: 5px;
+`;
+
+export const CategoryTitle = styled.h2`
+  margin-left: 17px;
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #c00000;
+`;
+
+export const Band = styled.div``;
