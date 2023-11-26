@@ -4,6 +4,15 @@
 // import { FiArrowRight } from 'react-icons/fi';
 import HomePromoImg from '../../assets/HomePromo.jpg';
 import FilterImg from '../../assets/Filter.jpg';
+import HydraulicImg from '../../assets/Hydraulic.jpg';
+import EngineImg from '../../assets/Engine.jpg';
+import Transmission from '../../assets/Transmission.jpg';
+import Electrical from '../../assets/Electrikal.jpg';
+import Brakes from '../../assets/Brakes.jpg';
+import Lubricants from '../../assets/Lubricants.jpg';
+import Belt from '../../assets/Belt.jpg';
+import Plow from '../../assets/Plow.jpg';
+
 import sprite from '../../assets/sprite.svg';
 
 // import './HomePage.css';
@@ -27,8 +36,10 @@ import {
   ShopCategoryItem,
   CategoryLink,
   LinkIcon,
-  GidravlikIcon,
+  // GidravlikIcon,
   CategoryTitle,
+  CategoriTitle,
+  CategoriImg,
 } from './HomePage.styled';
 
 function HomePage() {
@@ -165,15 +176,80 @@ function HomePage() {
       </BrandsList>
 
       <ShopCategory>
+        <CategoriTitle>ТОВАРИ ПО КАТЕГОРІЯМ</CategoriTitle>
+
         <ShopCategoryList>
           <ShopCategoryItem>
             <CategoryTitle>ГІДРАВЛІКА</CategoryTitle>
             <CategoryLink to="/">
               <LinkIcon />
             </CategoryLink>
-            <GidravlikIcon>
-              <use href={`${sprite}#icon-gidravlic`} />
-            </GidravlikIcon>
+
+            <CategoriImg src={HydraulicImg} alt="hydraulic pump" />
+             </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ФІЛЬТРИ</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={FilterImg} alt="filter" />
+            </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ДВИГУН</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={EngineImg} alt="engine" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ТРАНСМІСІЯ</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Transmission} alt="transmission" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ЕЛЕКТРИКА</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Electrical} alt="filter" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ГАЛЬМА</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Brakes} alt="brake discs" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>МАСЛА ТА АВТОХІМІЯ</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Lubricants} alt="oil canister" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>РЕМЕНІ ТА ЛАНЦЮГИ</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Belt} alt="belt" />
+          </ShopCategoryItem>
+
+          <ShopCategoryItem>
+            <CategoryTitle>ПОЧВООБРОБКА</CategoryTitle>
+            <CategoryLink to="/">
+              <LinkIcon />
+            </CategoryLink>
+            <CategoriImg src={Plow} alt="plow" />
           </ShopCategoryItem>
         </ShopCategoryList>
       </ShopCategory>

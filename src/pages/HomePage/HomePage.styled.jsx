@@ -113,15 +113,34 @@ export const BrandIcon = styled.svg`
 
 export const BrandsLink = styled(NavLink)``;
 
-export const ShopCategory = styled.section``;
+export const ShopCategory = styled.section`
+  background-color: white;
+  padding-top: 72px;
+  padding-bottom: 72px;
+`;
+
+export const CategoriTitle = styled.h2`
+  margin-left: 149px;
+  font-family: Oswald;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+`;
 
 export const ShopCategoryList = styled.ul`
-  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+  /* background-color: white; */
 `;
 
 export const ShopCategoryItem = styled.li`
   display: flex;
   align-items: center;
+  /* justify-content: center; */
   gap: 4px;
   position: relative;
   width: 364px;
@@ -137,6 +156,12 @@ export const LinkIcon = styled(FiArrowRight)`
   width: 16px;
   height: 16px;
   color: #2b4d5e;
+`;
+
+export const CategoriImg = styled.img`
+  position: absolute;
+  top: 0;
+  right: 32px;
 `;
 
 export const GidravlikIcon = styled.svg`
