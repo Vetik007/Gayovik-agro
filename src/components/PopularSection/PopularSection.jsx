@@ -31,7 +31,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>
@@ -44,7 +44,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>
@@ -57,7 +57,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>
@@ -70,7 +70,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>
@@ -83,7 +83,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>
@@ -96,7 +96,7 @@ function PopularProducts() {
           <Price>500 грн.</Price>
           <ProductButton type="button">
             <ButtonIcon width="16" height="16">
-              <use href={`${sprite}#icon-cart`} />
+              <use href={`${sprite}#icon-shopping`} />
             </ButtonIcon>
             Додати у кошик
           </ProductButton>

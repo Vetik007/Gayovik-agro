@@ -44,7 +44,10 @@ export const Price = styled.p`
 `;
 
 export const ProductButton = styled.button`
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
   margin-left: auto;
   margin-right: auto;
   /* margin-bottom: 8px; */
