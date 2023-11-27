@@ -293,6 +293,7 @@
 <path fill="#fff" style="fill: var(--color4, #fff)" d="M23.333 10.667h-16.667v3.723l1.015 1.72c0.518-0.048 1.039-0.044 1.557 0.012l1.219-2.111 5.462 3.153-1.219 2.112c0.309 0.423 0.573 0.873 0.788 1.342l2.475 0.023 0.021 2.026h2.016l2.667-1.333 4-0.667 2.667-12h-4l-2 2zM16.646 22.177l-0.002-0.215-1.84-0.017c0.025 0.072 0.049 0.144 0.072 0.216l1.771 0.017zM14.079 17.684l0.019-0.032-3.153-1.82-1.017 1.762c-0.916-0.224-1.866-0.244-2.781-0.060l0.148 0.251c0.962-0.219 1.968-0.209 2.935 0.027l1.017-1.762 2.831 1.635z"></path>
 <path fill="#fff" style="fill: var(--color4, #fff)" d="M4.18 19.541l-1.054-1.783 3.117-1.758 1.053 1.785c0.962-0.219 1.968-0.209 2.935 0.027l1.017-1.762 3.153 1.82-1.017 1.762c0.697 0.729 1.201 1.597 1.491 2.529l2.072 0.019 0.037 3.576-2.072-0.019c-0.275 0.937-0.769 1.792-1.442 2.498l1.053 1.783-3.116 1.756-1.054-1.783c-0.962 0.218-1.967 0.208-2.934-0.029l-1.018 1.764-3.153-1.82 1.019-1.765c-0.689-0.719-1.2-1.585-1.492-2.527l-2.071-0.021-0.038-3.575 2.071 0.019c0.275-0.936 0.768-1.791 1.442-2.497zM6.997 26.984c0.419 0.263 0.886 0.44 1.373 0.521s0.983 0.066 1.459-0.047 0.923-0.319 1.313-0.608c0.39-0.289 0.716-0.653 0.958-1.072s0.395-0.883 0.45-1.365 0.011-0.972-0.13-1.441c-0.141-0.469-0.375-0.907-0.689-1.287s-0.701-0.697-1.138-0.929c-0.842-0.447-1.82-0.557-2.728-0.307s-1.676 0.84-2.142 1.647-0.593 1.767-0.355 2.678c0.238 0.911 0.822 1.703 1.63 2.209z"></path>
 </symbol>
+
 <symbol id="icon-logo" viewBox="0 0 32 32">
 <path d="M29.082 0.314h-4.009c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.009c1.237 0 2.24-0.983 2.24-2.195v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
 <path d="M6.73 23.040h-4.318c-1.332 0-2.412 0.983-2.412 2.195v3.929c0 1.213 1.080 2.195 2.412 2.195h4.318c1.332 0 2.412-0.983 2.412-2.195v-3.929c0-1.212-1.080-2.195-2.412-2.195z"></path>
@@ -305,204 +306,16 @@
 <path d="M29.044 11.926h-4.010c-1.237 0-2.24 0.983-2.24 2.195v3.929c0 1.212 1.003 2.195 2.24 2.195h4.009c1.237 0 2.24-0.983 2.24-2.195v-3.929c0-1.212-1.003-2.195-2.24-2.195z"></path>
 </symbol>
 
-<symbol id="icon-gidravlic" viewBox="0 0 33 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0v32h32.552v-32h-32.552z"></path>
-<path fill="#2e2f2a" style="fill: var(--color2, #2e2f2a)" d="M3.862 8.552l-1.655 0.828 2.483 1.379c0.834-1.204 2.172-0.010 3.31 0.276l0.276-2.483c-1.534-0.608-3.986-2.682-4.414 0z"></path>
-<path fill="#848580" style="fill: var(--color3, #848580)" d="M3.586 7.724l-0.552 0.552v0.276c0.621-0.131 0.86-0.237 0.552-0.828z"></path>
-<path fill="#a6a79f" style="fill: var(--color4, #a6a79f)" d="M4.414 8.276v0.552h0.552v-0.552h-0.552z"></path>
-<path fill="#70716c" style="fill: var(--color5, #70716c)" d="M11.034 8.552l0.276 0.828 1.655-0.828h-1.931z"></path>
-<path fill="#a4a4a2" style="fill: var(--color6, #a4a4a2)" d="M8.276 8.552l-0.552 1.103 1.103 0.276-0.552-1.379z"></path>
-<path fill="#21221d" style="fill: var(--color7, #21221d)" d="M11.862 10.207l-1.103-0.276h-0.276l-0.828 1.931 0.828 1.931h0.276v-1.655l1.103 0.276-0.276-1.379 0.828 0.552 1.931 0.552 1.103-1.103-3.034-1.103v-0.276h0.828v-1.103c-1.016 0.16-1.864 0.559-1.379 1.655z"></path>
-<path fill="#8c8c8a" style="fill: var(--color8, #8c8c8a)" d="M13.333 8.736v0z"></path>
-<path fill="#bebebc" style="fill: var(--color9, #bebebc)" d="M11.126 9.011v0z"></path>
-<path fill="#4b4c44" style="fill: var(--color10, #4b4c44)" d="M13.241 9.103l-0.828 0.552v0.276h1.379l-0.552-0.828z"></path>
-<path fill="#73726e" style="fill: var(--color11, #73726e)" d="M13.517 9.103l-0.276 1.103c2.985 0.634 8.036 2.222 10.207 4.414l1.931 0.552 0.552-1.103-12.414-4.966z"></path>
-<path fill="#a3a49e" style="fill: var(--color12, #a3a49e)" d="M2.207 9.379l4.138 2.759 3.586-0.828v-0.276l-2.207-1.103 0.276 1.103-5.793-1.655z"></path>
-<path fill="#a0a09e" style="fill: var(--color13, #a0a09e)" d="M10.483 9.379v0z"></path>
-<path fill="#3b3c36" style="fill: var(--color14, #3b3c36)" d="M9.931 11.31h0.276l0.276-1.379h0.276l1.103 0.276-0.276-0.828c-1.161 0.253-1.405 0.813-1.655 1.931z"></path>
-<path fill="#4c4d48" style="fill: var(--color15, #4c4d48)" d="M4.69 9.931c0.408 1.192 1.329 1.385 2.483 1.103l-2.483-1.103z"></path>
-<path fill="#72736d" style="fill: var(--color16, #72736d)" d="M8 9.931v0.276l2.207 0.552-2.207-0.828z"></path>
-<path fill="#dbdcd7" style="fill: var(--color17, #dbdcd7)" d="M13.793 10.207v0.276l1.655 1.379c1.249 0.416 2.068 1.518 3.034 0.552v0.552c0.349-1.489-3.526-2.551-4.69-2.759z"></path>
-<path fill="#51524d" style="fill: var(--color18, #51524d)" d="M3.77 10.851v0z"></path>
-<path fill="#cfd0cb" style="fill: var(--color19, #cfd0cb)" d="M3.586 11.034v0.276h1.103l-1.103-0.276z"></path>
-<path fill="#43443f" style="fill: var(--color20, #43443f)" d="M11.586 11.034c0.162 1.422 0.823 1.954 2.207 2.207v-0.276l-2.207-1.931z"></path>
-<path fill="#646560" style="fill: var(--color21, #646560)" d="M11.862 11.034l1.931 1.931v0.276l-3.034-1.103 3.862 2.56 9.655 3.509c-1.244-2.409-6.119-3.167-8.552-3.862v-0.276l1.931 0.552v-0.276l-5.793-3.31z"></path>
-<path fill="#70716b" style="fill: var(--color22, #70716b)" d="M8.828 11.31l0.276 1.103 0.552-1.103h-0.828z"></path>
-<path fill="#fbfcf7" style="fill: var(--color23, #fbfcf7)" d="M15.172 11.31l-0.552 1.103 3.31 1.655 0.552-1.655h-0.276c-0.565 0.753-2.641-0.472-2.483-1.103h-0.552z"></path>
-<path fill="#989994" style="fill: var(--color24, #989994)" d="M14.897 11.586v0z"></path>
-<path fill="#7a7b76" style="fill: var(--color25, #7a7b76)" d="M6.621 12.414v0z"></path>
-<path fill="#50514b" style="fill: var(--color26, #50514b)" d="M9.379 11.862l0.828 1.103h0.276v-1.103h-1.103z"></path>
-<path fill="#868782" style="fill: var(--color27, #868782)" d="M14.621 11.862v0z"></path>
-<path fill="#b0ada8" style="fill: var(--color28, #b0ada8)" d="M18.759 12.138l2.207 1.103v-0.276l-2.207-0.828z"></path>
-<path fill="#91918f" style="fill: var(--color29, #91918f)" d="M9.379 12.414c0.238 1.636-0.115 3.151 1.931 3.31v-0.276l-1.103-3.034h-0.828z"></path>
-<path fill="#d6d7d2" style="fill: var(--color30, #d6d7d2)" d="M14.345 12.414v0z"></path>
-<path fill="#2a2b26" style="fill: var(--color31, #2a2b26)" d="M18.483 13.793l5.793 2.207-0.552 1.655h0.552c-0.63 1.263-0.683 1.966-0.276 3.31l-0.828-0.276 1.379 1.103v-1.379c1.377 0.497 2.313 0.601 3.034-0.828l-1.655-0.552v-0.276l1.103-0.552h0.276l1.714 0.743-0.886 2.844c1.185-0.374 2.997-2.791 2.036-4.029-0.766-0.988-2.555-1.379-3.691-1.764l0.276-1.931-1.379 1.103c-1.486-0.576-6.184-3.504-6.897-1.379z"></path>
-<path fill="#3a3b36" style="fill: var(--color32, #3a3b36)" d="M11.034 12.966c-0.516 1.227-0.714 2.225 0.828 2.483v-0.276l-0.828-1.379c2.824 0.772 5.3 2.381 8 3.462 1.549 0.62 3.324 1.041 4.138 2.607h0.276l0.552-1.655-12.966-5.241z"></path>
-<path fill="#7e7d79" style="fill: var(--color33, #7e7d79)" d="M18.207 13.241l-0.828 1.103c2.079 1.479 4.395 1.99 6.897 2.207l-6.069-3.31z"></path>
-<path fill="#bcbbb7" style="fill: var(--color34, #bcbbb7)" d="M20.966 13.241v0.276l1.931 0.552v-0.276l-1.931-0.552z"></path>
-<path fill="#4e4f4a" style="fill: var(--color35, #4e4f4a)" d="M11.034 13.793v1.103h0.276l3.31 0.945 8.276 3.745-0.552 0.828v0.276l0.552 0.828h0.276v-0.828l0.828 0.276c-0.943-3.448-9.661-6.603-12.966-7.172z"></path>
-<path fill="#c0c0c0" style="fill: var(--color36, #c0c0c0)" d="M26.115 13.885v0z"></path>
-<path fill="#656563" style="fill: var(--color37, #656563)" d="M9.103 14.069v0z"></path>
-<path fill="#444540" style="fill: var(--color38, #444540)" d="M15.724 14.069v0.276l3.862 1.379v-0.276l-3.862-1.379z"></path>
-<path fill="#dadbd6" style="fill: var(--color39, #dadbd6)" d="M23.080 14.161v0z"></path>
-<path fill="#9c9d98" style="fill: var(--color40, #9c9d98)" d="M11.31 14.345l3.31 2.123 8.276 3.671-3.034-2.001-8.552-3.792z"></path>
-<path fill="#c4c6c1" style="fill: var(--color41, #c4c6c1)" d="M23.908 14.437v0z"></path>
-<path fill="#dfdfdd" style="fill: var(--color42, #dfdfdd)" d="M24.46 14.713v0z"></path>
-<path fill="#9f9f9d" style="fill: var(--color43, #9f9f9d)" d="M24.92 14.805v0z"></path>
-<path fill="#5f605b" style="fill: var(--color44, #5f605b)" d="M27.034 14.621v1.103h0.276l-0.276-1.103z"></path>
-<path fill="#adadad" style="fill: var(--color45, #adadad)" d="M27.31 14.621v0.828h0.276l-0.276-0.828z"></path>
-<path fill="#6f6e6a" style="fill: var(--color46, #6f6e6a)" d="M11.31 15.724c3.099 1.468 7.887 4.723 11.31 4.69-1.363-2.055-6.040-3.183-8.276-4.202-1.009-0.459-2.001-1.047-3.034-0.488z"></path>
-<path fill="#9c9c9a" style="fill: var(--color47, #9c9c9a)" d="M26.483 15.724l0.552 0.552v-0.552h-0.552z"></path>
-<path fill="#a2a39e" style="fill: var(--color48, #a2a39e)" d="M22.621 16.276v0z"></path>
-<path fill="#7d7e79" style="fill: var(--color49, #7d7e79)" d="M22.897 16.828v0.276h1.103l-1.103-0.276z"></path>
-<path fill="#42433e" style="fill: var(--color50, #42433e)" d="M27.034 18.207l-1.103 0.552v0.276l1.655 0.552-0.276 0.828c1.785 0.277 1.884-0.487 1.103-1.931l-1.379-0.276z"></path>
-<path fill="#c4c5c0" style="fill: var(--color51, #c4c5c0)" d="M30.713 18.391v0z"></path>
-<path fill="#abaca7" style="fill: var(--color52, #abaca7)" d="M28.414 18.483l0.828 1.103v-1.103h-0.828z"></path>
-<path fill="#5d5e59" style="fill: var(--color53, #5d5e59)" d="M29.241 18.759v0.828h0.276l-0.276-0.828z"></path>
-<path fill="#34332f" style="fill: var(--color54, #34332f)" d="M20.322 19.126v0z"></path>
-<path fill="#989994" style="fill: var(--color24, #989994)" d="M30.069 19.586v0z"></path>
-<path fill="#b2b3ae" style="fill: var(--color55, #b2b3ae)" d="M29.517 19.862v0.828h0.276l-0.276-0.828z"></path>
-<path fill="#abaca7" style="fill: var(--color52, #abaca7)" d="M24.552 20.414l0.276 0.828h0.276v-0.828h-0.552z"></path>
-<path fill="#888984" style="fill: var(--color56, #888984)" d="M26.207 20.966v0.276l1.931 0.552 0.828-0.828h-2.759z"></path>
-<path fill="#a7a7a5" style="fill: var(--color57, #a7a7a5)" d="M24.644 21.425v0z"></path>
-<path fill="#a0a09e" style="fill: var(--color13, #a0a09e)" d="M23.632 21.609v0z"></path>
+<symbol id="icon-customer" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M28 10.667c1.473 0 2.667 1.194 2.667 2.667v0 5.333c0 1.473-1.194 2.667-2.667 2.667v0h-1.416c-0.686 5.289-5.162 9.333-10.583 9.333-0 0-0.001 0-0.001 0h0v-2.667c4.418 0 8-3.582 8-8v0-8c0-4.418-3.582-8-8-8s-8 3.582-8 8v0 9.333h-4c-1.473 0-2.667-1.194-2.667-2.667v0-5.333c0-1.473 1.194-2.667 2.667-2.667v0h1.416c0.687-5.289 5.163-9.332 10.584-9.332s9.897 4.043 10.578 9.278l0.006 0.054h1.416zM10.347 21.047l1.413-2.261c1.199 0.761 2.659 1.213 4.225 1.213 0.005 0 0.010 0 0.015 0h-0.001c0.004 0 0.009 0 0.015 0 1.566 0 3.026-0.452 4.258-1.233l-0.033 0.019 1.413 2.261c-1.599 1.017-3.548 1.62-5.637 1.62-0.006 0-0.011 0-0.017 0h0.001c-0.005 0-0.010 0-0.016 0-2.089 0-4.038-0.604-5.681-1.646l0.043 0.026z"></path>
 </symbol>
 
-<symbol id="icon-filter" viewBox="0 0 33 32">
-<path fill="#fff" style="fill: var(--color1, #fff)" d="M0 0v32h32.552v-32h-32.552z"></path>
-<path fill="#c1c1c1" style="fill: var(--color2, #c1c1c1)" d="M22.805 4.23v0z"></path>
-<path fill="#a1a1a1" style="fill: var(--color3, #a1a1a1)" d="M21.793 4.414v2.207h0.276l-0.276-2.207z"></path>
-<path fill="#c6c4c5" style="fill: var(--color4, #c6c4c5)" d="M22.345 4.414v2.759h4.966l-0.828 3.31c-1.201 0.073-1.568 0.801-1.655 1.931h-1.379l0.276 3.31 1.379 0.552v0.276l-1.379 0.828v0.276l0.828 0.276v0.276h-1.655l0.552 0.828-0.552 0.828 1.379 1.931-0.828 0.828 2.759-0.828 0.276 0.828 1.379-0.552 0.276-15.724-5.517 0.276-0.276-2.207z"></path>
-<path fill="#706f6d" style="fill: var(--color5, #706f6d)" d="M22.621 4.414v1.931h0.552v-1.931h-0.552z"></path>
-<path fill="#99979a" style="fill: var(--color6, #99979a)" d="M23.172 4.414l-0.552 1.931v0.276c1.056-0.226 1.024-1.386 0.552-2.207z"></path>
-<path fill="#ccc2b9" style="fill: var(--color7, #ccc2b9)" d="M17.379 6.621l0.276 0.828 1.379 0.276 1.655-0.276-3.31-0.828z"></path>
-<path fill="#99948e" style="fill: var(--color8, #99948e)" d="M20.69 7.724c2.275-0.206 4.655-0.651 5.517 1.931h0.276l0.828-2.483c-1.619 0-5.52-0.708-6.621 0.552z"></path>
-<path fill="#c5c5c5" style="fill: var(--color9, #c5c5c5)" d="M23.724 7.448l0.828 1.103-0.552 1.103h2.207l-1.103-2.207h-1.379z"></path>
-<path fill="#3a2c23" style="fill: var(--color10, #3a2c23)" d="M24.276 7.448v0z"></path>
-<path fill="#c0ae96" style="fill: var(--color11, #c0ae96)" d="M22.161 7.908v0z"></path>
-<path fill="#ab9889" style="fill: var(--color12, #ab9889)" d="M19.954 8.46v0z"></path>
-<path fill="#8e786a" style="fill: var(--color13, #8e786a)" d="M21.517 8.552v0z"></path>
-<path fill="#a59387" style="fill: var(--color14, #a59387)" d="M22.529 8.644v0z"></path>
-<path fill="#8f7662" style="fill: var(--color15, #8f7662)" d="M23.448 8.552v0z"></path>
-<path fill="#53403a" style="fill: var(--color16, #53403a)" d="M24.276 8.552v0z"></path>
-<path fill="#645b54" style="fill: var(--color17, #645b54)" d="M25.103 8.552v0z"></path>
-<path fill="#af9584" style="fill: var(--color18, #af9584)" d="M18.759 8.828v0z"></path>
-<path fill="#e1d8c9" style="fill: var(--color19, #e1d8c9)" d="M20.966 8.828v0.552h0.552v-0.552h-0.552z"></path>
-<path fill="#b1a595" style="fill: var(--color20, #b1a595)" d="M22.988 9.011v0z"></path>
-<path fill="#afa69f" style="fill: var(--color21, #afa69f)" d="M23.448 9.655v0z"></path>
-<path fill="#625b55" style="fill: var(--color22, #625b55)" d="M26.759 8.828v0z"></path>
-<path fill="#8a8683" style="fill: var(--color23, #8a8683)" d="M17.655 9.379v1.103h0.828v-1.103h-0.828z"></path>
-<path fill="#f2cdc7" style="fill: var(--color24, #f2cdc7)" d="M19.034 9.379v2.759h0.276l-0.276-2.759z"></path>
-<path fill="#a09591" style="fill: var(--color25, #a09591)" d="M19.31 9.379c0.233 1.407 1.638 1.947 1.931 0.276l-1.931-0.276z"></path>
-<path fill="#817b7b" style="fill: var(--color26, #817b7b)" d="M27.034 9.379v0z"></path>
-<path fill="#746c6a" style="fill: var(--color27, #746c6a)" d="M21.241 9.655v1.103l0.828-1.103h-0.828z"></path>
-<path fill="#3f3735" style="fill: var(--color28, #3f3735)" d="M22.069 9.655v1.103h0.276l-0.276-1.103z"></path>
-<path fill="#514946" style="fill: var(--color29, #514946)" d="M23.448 9.655c0.608 1.525 2.107 1.435 2.759 0h-2.759z"></path>
-<path fill="#766c6b" style="fill: var(--color30, #766c6b)" d="M26.207 9.655v0z"></path>
-<path fill="#a45654" style="fill: var(--color31, #a45654)" d="M23.448 10.207l1.103 0.828v1.103h-1.103v0.276h1.379v-1.655l-1.379-0.552z"></path>
-<path fill="#ecc4bc" style="fill: var(--color32, #ecc4bc)" d="M17.379 10.759v1.103h0.276l-0.276-1.103z"></path>
-<path fill="#e8491f" style="fill: var(--color33, #e8491f)" d="M19.31 10.759v1.379h1.103v-1.379h-1.103z"></path>
-<path fill="#9f5748" style="fill: var(--color34, #9f5748)" d="M27.034 10.759v1.379h0.552v-1.379h-0.552z"></path>
-<path fill="#740009" style="fill: var(--color35, #740009)" d="M23.448 11.034v1.103h1.103v-1.103h-1.103z"></path>
-<path fill="#f4f0ed" style="fill: var(--color36, #f4f0ed)" d="M17.655 12.414l0.552 1.655v0.276l-4.966-1.379c-2.514 2.008-6.739 0.913-8.276 4.138l1.655-1.103-0.828 1.379 1.379 0.276-0.276-1.103 3.034 0.828v-1.931h0.828v2.483h1.103c-0.52 1.557 0.094 2.232 1.655 2.483 0.040-2.241-0.244-3.913-2.483-4.966v-0.276l2.207-0.828 0.552 1.103h0.276l-0.276-1.103 0.276-0.276 1.379 0.276 0.552 1.103h0.276l1.103-0.552c-0.085 1.125-0.414 2.066 0.828 2.483l0.276 5.241 0.276-0.552h0.276c0.168 0.784 0.67 1.032 1.103 0.276h0.276l3.31 0.552-0.828-3.034 0.552-0.828-0.552-0.828h1.379l-0.552-0.552v-0.276c0.984-0.717 0.187-3.62-0.276-4.69h-0.276v1.379h-2.207l0.552-1.103h-1.379l0.276-0.828-2.759 0.276z"></path>
-<path fill="#96887b" style="fill: var(--color37, #96887b)" d="M26.023 12.598v0z"></path>
-<path fill="#c2a583" style="fill: var(--color38, #c2a583)" d="M20.69 12.69v0z"></path>
-<path fill="#9a8779" style="fill: var(--color39, #9a8779)" d="M21.517 12.69v0z"></path>
-<path fill="#c7b5a9" style="fill: var(--color40, #c7b5a9)" d="M22.529 12.782v0z"></path>
-<path fill="#866b56" style="fill: var(--color41, #866b56)" d="M23.448 12.69v0z"></path>
-<path fill="#3e2a1f" style="fill: var(--color42, #3e2a1f)" d="M24.276 12.69v0z"></path>
-<path fill="#5e514b" style="fill: var(--color43, #5e514b)" d="M25.103 12.69v0z"></path>
-<path fill="#9e9e9c" style="fill: var(--color44, #9e9e9c)" d="M13.517 12.966v0.276l3.586 0.828-3.586-1.103z"></path>
-<path fill="#b49b87" style="fill: var(--color45, #b49b87)" d="M22.161 13.149v0z"></path>
-<path fill="#bcad9a" style="fill: var(--color46, #bcad9a)" d="M22.988 13.149v0z"></path>
-<path fill="#76615c" style="fill: var(--color47, #76615c)" d="M26.759 12.966v0z"></path>
-<path fill="#8f8c87" style="fill: var(--color48, #8f8c87)" d="M12.414 13.241v0.276h0.828l-0.828-0.276z"></path>
-<path fill="#d3c5b8" style="fill: var(--color49, #d3c5b8)" d="M19.954 13.701v0z"></path>
-<path fill="#766865" style="fill: var(--color50, #766865)" d="M25.195 13.701v0z"></path>
-<path fill="#c9b9ac" style="fill: var(--color51, #c9b9ac)" d="M22.529 13.885v0z"></path>
-<path fill="#a18872" style="fill: var(--color52, #a18872)" d="M23.448 13.793v0z"></path>
-<path fill="#685244" style="fill: var(--color53, #685244)" d="M24.276 13.793v0z"></path>
-<path fill="#c7c7c9" style="fill: var(--color54, #c7c7c9)" d="M14.069 14.069l-0.276 0.276 0.276 1.103h-0.276l-0.552-1.103-2.207 0.828v0.276l1.931 1.931 0.828-0.276 0.276 1.103h0.276l0.276-0.828 1.379 0.552c0-1.216 1.442-0.081 2.207 0l-2.759-3.586-1.379-0.276z"></path>
-<path fill="#665043" style="fill: var(--color55, #665043)" d="M26.207 14.069v0z"></path>
-<path fill="#a78c79" style="fill: var(--color56, #a78c79)" d="M19.034 14.621v0z"></path>
-<path fill="#b19786" style="fill: var(--color57, #b19786)" d="M23.54 14.805v0z"></path>
-<path fill="#745e51" style="fill: var(--color58, #745e51)" d="M24.368 14.805v0z"></path>
-<path fill="#726052" style="fill: var(--color59, #726052)" d="M26.483 14.621v0z"></path>
-<path fill="#b8b8b6" style="fill: var(--color60, #b8b8b6)" d="M16.828 14.897v0.552h0.552v-0.552h-0.552z"></path>
-<path fill="#d56e5d" style="fill: var(--color61, #d56e5d)" d="M16.276 15.172v0z"></path>
-<path fill="#90837a" style="fill: var(--color62, #90837a)" d="M25.563 15.264v0z"></path>
-<path fill="#a5a3a4" style="fill: var(--color63, #a5a3a4)" d="M9.931 15.448v1.931c-1.209-0.328-2.083-0.163-2.483 1.103 0.925 0.215 2.181 0.068 2.94 0.696 2.567 2.127-0.537 3.307-2.388 3.166l0.276 1.655h0.276l2.483-0.276 0.828-5.793h-1.103v-2.483h-0.828z"></path>
-<path fill="#a58c76" style="fill: var(--color64, #a58c76)" d="M19.862 15.724v0z"></path>
-<path fill="#c1b8af" style="fill: var(--color65, #c1b8af)" d="M22.345 15.724v0.552l0.552-0.552h-0.552z"></path>
-<path fill="#998880" style="fill: var(--color66, #998880)" d="M24.368 15.908v0z"></path>
-<path fill="#4c3f37" style="fill: var(--color67, #4c3f37)" d="M25.103 15.724v0z"></path>
-<path fill="#725f4e" style="fill: var(--color68, #725f4e)" d="M25.931 15.724v0z"></path>
-<path fill="#7d6d5d" style="fill: var(--color69, #7d6d5d)" d="M26.483 15.724v0z"></path>
-<path fill="#e1e1e1" style="fill: var(--color70, #e1e1e1)" d="M4.966 18.483h-0.276v-0.828h-0.276c-0.314 1.116-0.604 2.148-0.366 3.31 1.487 7.253 11.089 5.030 9.745-2.207h-0.276v1.655l-1.931-0.552-0.552 3.862-2.483 0.276h-0.276c-0.21-1.871-3.101-5.334 1.103-4.69l-1.931-0.828 0.828-1.103v-0.276l-1.379-0.552 0.276 1.103-1.379-0.276 0.828-1.379-1.655 2.483z"></path>
-<path fill="#918378" style="fill: var(--color71, #918378)" d="M26.299 16.184v0z"></path>
-<path fill="#8d7257" style="fill: var(--color72, #8d7257)" d="M22.069 16.276v0z"></path>
-<path fill="#a48f7e" style="fill: var(--color73, #a48f7e)" d="M24.736 16.368v0z"></path>
-<path fill="#bcbcbc" style="fill: var(--color74, #bcbcbc)" d="M5.241 16.828l-0.552 1.655h0.276l0.276-1.655z"></path>
-<path fill="#4c3629" style="fill: var(--color75, #4c3629)" d="M24.276 16.828v0z"></path>
-<path fill="#4d403a" style="fill: var(--color76, #4d403a)" d="M25.103 16.828v0z"></path>
-<path fill="#afaaa7" style="fill: var(--color77, #afaaa7)" d="M13.241 17.103l1.379 4.138 1.103-1.379-0.552-0.828c0.82 0.097 2.493-0.334 2.146 1.103-0.121 0.499-0.932 1.187-0.567 1.724 0.346 0.509 0.354-0.306 0.352-0.345l0.552 1.379v0.276l1.103-0.276-0.828-4.966c-0.692-0.379-1.773-1.114-1.931 0l-1.379-0.552-0.276 0.828h-0.276l-0.828-1.103z"></path>
-<path fill="#a38873" style="fill: var(--color78, #a38873)" d="M18.759 17.103v0z"></path>
-<path fill="#766355" style="fill: var(--color79, #766355)" d="M26.759 17.103v0z"></path>
-<path fill="#a88a70" style="fill: var(--color80, #a88a70)" d="M22.069 17.379v0z"></path>
-<path fill="#b0947f" style="fill: var(--color81, #b0947f)" d="M18.483 17.655v0z"></path>
-<path fill="#a7927f" style="fill: var(--color82, #a7927f)" d="M21.517 17.931v0z"></path>
-<path fill="#cdbdae" style="fill: var(--color83, #cdbdae)" d="M22.529 18.023v0z"></path>
-<path fill="#a48b75" style="fill: var(--color84, #a48b75)" d="M23.448 17.931v0z"></path>
-<path fill="#593e33" style="fill: var(--color85, #593e33)" d="M24.276 17.931v0z"></path>
-<path fill="#6f625a" style="fill: var(--color86, #6f625a)" d="M25.103 17.931v0z"></path>
-<path fill="#c1a892" style="fill: var(--color87, #c1a892)" d="M22.161 18.391v0z"></path>
-<path fill="#725d4c" style="fill: var(--color88, #725d4c)" d="M26.207 18.207v0z"></path>
-<path fill="#797977" style="fill: var(--color89, #797977)" d="M9.379 18.483l-0.276 4.138c1.877-0.104 2.191-1.013 2.207-2.759h-0.276l-1.103 2.207 0.552-3.31-1.103-0.276z"></path>
-<path fill="#737270" style="fill: var(--color90, #737270)" d="M15.172 19.034v0.828c2.221 1.708 3.067-0.888 0-0.828z"></path>
-<path fill="#b19c8b" style="fill: var(--color91, #b19c8b)" d="M21.609 18.943v0z"></path>
-<path fill="#877a72" style="fill: var(--color92, #877a72)" d="M25.195 18.943v0z"></path>
-<path fill="#6c584d" style="fill: var(--color93, #6c584d)" d="M26.483 18.759v0z"></path>
-<path fill="#0c0c0c" style="fill: var(--color94, #0c0c0c)" d="M7.536 19.322c-1.45 0.908-0.182 3.708 1.505 2.735 1.735-1.001 0.173-3.785-1.505-2.735z"></path>
-<path fill="#433f3e" style="fill: var(--color95, #433f3e)" d="M10.207 19.034l-0.276 3.034c1.18-0.689 1.464-2.195 0.276-3.034z"></path>
-<path fill="#6c5547" style="fill: var(--color96, #6c5547)" d="M24.276 19.034v0z"></path>
-<path fill="#d0bfab" style="fill: var(--color97, #d0bfab)" d="M22.161 19.494v0z"></path>
-<path fill="#4e4e4e" style="fill: var(--color98, #4e4e4e)" d="M6.621 19.862v1.379h0.276l-0.276-1.379z"></path>
-<path fill="#8b8a88" style="fill: var(--color99, #8b8a88)" d="M14.069 19.862c-0.066 3.119-1.835 5.331-4.966 5.793v0.276l7.724-3.586v-1.379l-2.207 0.276-0.552-1.379z"></path>
-<path fill="#af977f" style="fill: var(--color100, #af977f)" d="M19.862 19.862v0z"></path>
-<path fill="#c8b5a6" style="fill: var(--color101, #c8b5a6)" d="M21.609 20.046v0z"></path>
-<path fill="#856f62" style="fill: var(--color102, #856f62)" d="M24.368 20.046v0z"></path>
-<path fill="#705c51" style="fill: var(--color103, #705c51)" d="M25.931 19.862v0z"></path>
-<path fill="#877569" style="fill: var(--color104, #877569)" d="M26.483 19.862v0z"></path>
-<path fill="#9b8b7c" style="fill: var(--color105, #9b8b7c)" d="M18.759 20.138v0z"></path>
-<path fill="#cdb7a2" style="fill: var(--color106, #cdb7a2)" d="M21.149 20.506v0z"></path>
-<path fill="#af9481" style="fill: var(--color107, #af9481)" d="M24.736 20.506v0z"></path>
-<path fill="#a08a75" style="fill: var(--color108, #a08a75)" d="M18.483 20.69v0z"></path>
-<path fill="#a7937b" style="fill: var(--color109, #a7937b)" d="M19.862 20.966v0z"></path>
-<path fill="#c9bcb6" style="fill: var(--color110, #c9bcb6)" d="M22.345 20.966v0.552h0.552v-0.552h-0.552z"></path>
-<path fill="#c5b2a4" style="fill: var(--color111, #c5b2a4)" d="M23.54 21.149v0z"></path>
-<path fill="#4a3d34" style="fill: var(--color112, #4a3d34)" d="M25.103 20.966v0z"></path>
-<path fill="#ab9887" style="fill: var(--color113, #ab9887)" d="M18.759 21.241v0z"></path>
-<path fill="#6c6c6c" style="fill: var(--color114, #6c6c6c)" d="M6.897 21.517v0z"></path>
-<path fill="#7b7776" style="fill: var(--color115, #7b7776)" d="M17.103 21.517v0z"></path>
-<path fill="#c3ad95" style="fill: var(--color116, #c3ad95)" d="M21.149 21.609v0z"></path>
-<path fill="#b29b7b" style="fill: var(--color117, #b29b7b)" d="M21.977 21.609v0z"></path>
-<path fill="#b5a494" style="fill: var(--color118, #b5a494)" d="M23.908 21.609v0z"></path>
-<path fill="#a89682" style="fill: var(--color119, #a89682)" d="M24.736 21.609v0z"></path>
-<path fill="#c1b29f" style="fill: var(--color120, #c1b29f)" d="M19.954 21.977v0z"></path>
-<path fill="#706454" style="fill: var(--color121, #706454)" d="M25.931 21.793c-1.333 1.288-3.749 1.037-5.517 1.103v0.276c2.066 0 6.394 0.803 7.724-1.103l-1.655 0.552-0.552-0.828z"></path>
-<path fill="#e5e5e7" style="fill: var(--color122, #e5e5e7)" d="M16.276 22.897l1.103 1.103 5.241-0.276v-0.276c-1.818-0.337-4.263 0.484-5.241-1.379l-1.103 0.828z"></path>
-<path fill="#cacac8" style="fill: var(--color123, #cacac8)" d="M18.759 22.069l-0.552 1.379c1.020-0.033 1.894-0.032 2.207-1.103h-0.276l-1.379-0.276z"></path>
-<path fill="#897159" style="fill: var(--color124, #897159)" d="M21.517 22.069v0z"></path>
-<path fill="#35221c" style="fill: var(--color125, #35221c)" d="M24.276 22.069v0z"></path>
-<path fill="#50423f" style="fill: var(--color126, #50423f)" d="M25.103 22.069v0z"></path>
-<path fill="#c3c2c0" style="fill: var(--color127, #c3c2c0)" d="M16.276 23.724c0.223 2.245 6.163 1.655 8 1.655v-0.276c-1.436-0-2.825 0.221-3.31-1.379l-3.586 0.276-0.828-1.655c-0.938 0.263-1.53 1.111-0.276 1.379z"></path>
-<path fill="#bbbab8" style="fill: var(--color128, #bbbab8)" d="M27.586 22.621l-5.793 0.552v0.276c1.026 0.194 6.081 0.931 5.793-0.828z"></path>
-<path fill="#adacaa" style="fill: var(--color129, #adacaa)" d="M15.172 22.897l-4.138 2.759v0.276l5.517-0.828-0.276-1.379-1.103-0.828z"></path>
-<path fill="#9f9e9a" style="fill: var(--color130, #9f9e9a)" d="M20.966 23.724c0.321 1.924 3.265 1.924 3.586 0h-3.586z"></path>
-<path fill="#dad8d9" style="fill: var(--color131, #dad8d9)" d="M24.552 23.724c-0.569 2.731-4.542 1.38-6.621 1.379v0.276c2.178 0.451 9.075 2.271 9.655-1.103l-3.034-0.552z"></path>
-<path fill="#dcdbd9" style="fill: var(--color132, #dcdbd9)" d="M21.793 24v0.828h0.828v-0.828h-0.828z"></path>
-<path fill="#b5b5b5" style="fill: var(--color133, #b5b5b5)" d="M7.724 25.379v0.276l1.379 0.276-1.379-0.552z"></path>
-<path fill="#dbdad8" style="fill: var(--color134, #dbdad8)" d="M9.103 25.931v0.276l5.241-0.276h-5.241z"></path>
+<symbol id="icon-price" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M14.533 2.8l13.2 1.887 1.884 13.2-12.256 12.256c-0.241 0.241-0.575 0.39-0.943 0.39s-0.701-0.149-0.943-0.39l-13.2-13.2c-0.241-0.241-0.39-0.575-0.39-0.943s0.149-0.701 0.39-0.943l12.257-12.257zM18.304 14.115c0.483 0.484 1.15 0.783 1.887 0.783 1.472 0 2.665-1.193 2.665-2.665 0-0.001 0-0.003 0-0.004v0c-0-1.472-1.194-2.666-2.667-2.666s-2.667 1.194-2.667 2.667c0 0.737 0.299 1.403 0.781 1.886v0z"></path>
+</symbol>
+
+<symbol id="icon-truck" viewBox="0 0 32 32">
+<path fill="#fff" style="fill: var(--color1, #fff)" d="M22.667 10.667h4l4 5.408v7.925h-2.713c-0.334 2.279-2.275 4.008-4.62 4.008s-4.286-1.73-4.617-3.983l-0.003-0.025h-6.76c-0.334 2.279-2.275 4.008-4.62 4.008s-4.286-1.73-4.617-3.983l-0.003-0.025h-1.38v-16c0-0.736 0.597-1.333 1.333-1.333v0h18.667c0.736 0 1.333 0.597 1.333 1.333v0 2.667zM22.667 13.333v4h5.333v-0.38l-2.677-3.62h-2.656z"></path>
 </symbol>
 
 </defs>
