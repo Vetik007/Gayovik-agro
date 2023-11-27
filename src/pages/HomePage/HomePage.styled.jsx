@@ -181,4 +181,14 @@ export const CategoryTitle = styled.h2`
   color: #c00000;
 `;
 
-export const Band = styled.div``;
+
+
+
+
+export const At = styled.div``;
+export const Ag = styled.div``;
+export const As = styled.div``;
+export const Ah = styled.div``;
+export const Ax = styled.div``;
+export const Ac = styled.div``;
+export const Av = styled.div``;

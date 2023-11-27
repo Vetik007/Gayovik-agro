@@ -17,6 +17,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+
   background-color: #f1f1f2;
   /* background-image: url('./assets/background.png'); */
   background-size: auto 100%;

@@ -233,7 +233,7 @@ position: relative;
   border-top: 72px solid #C00000;
   /* border-bottom: 72px solid #C00000; Высота трапеции */
   border-left: 0px solid transparent; /* Длина верхней стороны */
-  border-right: 23px solid transparent; /* Длина верхней стороны */
+  border-right: 22px solid transparent; /* Длина верхней стороны */
 
 `;
 

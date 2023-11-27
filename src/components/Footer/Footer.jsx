@@ -109,8 +109,6 @@ const Footer = () => {
           </SocialList>
         </ContactBlock>
       </InfoSection>
-
-      <h1>Hi Footer</h1>
     </FooterContainer>
   );
 };

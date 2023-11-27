@@ -2,6 +2,9 @@
 // import reactLogo from '../../assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import { FiArrowRight } from 'react-icons/fi';
+import AboutSection from '../../components/About/About';
+import PopularProducts from '../../components/PopularSection/PopularSection';
+
 import HomePromoImg from '../../assets/HomePromo.jpg';
 import FilterImg from '../../assets/Filter.jpg';
 import HydraulicImg from '../../assets/Hydraulic.jpg';
@@ -12,6 +15,7 @@ import Brakes from '../../assets/Brakes.jpg';
 import Lubricants from '../../assets/Lubricants.jpg';
 import Belt from '../../assets/Belt.jpg';
 import Plow from '../../assets/Plow.jpg';
+// import AboutImg from '../../assets/AboutImg.jpg';
 
 import sprite from '../../assets/sprite.svg';
 
@@ -186,7 +190,7 @@ function HomePage() {
             </CategoryLink>
 
             <CategoriImg src={HydraulicImg} alt="hydraulic pump" />
-             </ShopCategoryItem>
+          </ShopCategoryItem>
 
           <ShopCategoryItem>
             <CategoryTitle>ФІЛЬТРИ</CategoryTitle>
@@ -194,7 +198,7 @@ function HomePage() {
               <LinkIcon />
             </CategoryLink>
             <CategoriImg src={FilterImg} alt="filter" />
-            </ShopCategoryItem>
+          </ShopCategoryItem>
 
           <ShopCategoryItem>
             <CategoryTitle>ДВИГУН</CategoryTitle>
@@ -253,6 +257,30 @@ function HomePage() {
           </ShopCategoryItem>
         </ShopCategoryList>
       </ShopCategory>
+
+      <PopularProducts />
+
+      <AboutSection />
+
+      {/* <About>
+        <img src={AboutImg} alt="tractor" />
+        <Parallax>
+          <AboutTitle>
+            СТВОРЕННЯ НАПРЯМКУ В СІЛЬСЬКОГОСПОДАРСЬКИХ ТЕХНОЛОГІЯХ
+          </AboutTitle>
+        </Parallax>
+        <AboutInfo>
+          <AboutText>
+            Маючи багаторічний досвід, компанія Гайовик-агро володіє та управляє
+            мережею дистрибуції обладнання та послуг у сільськогосподарській
+            галузі. Гайовик-агро є найбільшим дистриб`ютором
+            сільськогосподарської та будівельної техніки в США та одним з
+            найбільших імпортерів і дистриб`юторів такого обладнання у світі.
+            Основними партнерами Гайовик-агро є відомі бренди, серед яких Claas,
+            Lemken, Kuhn, INA, Timken, SKF, Avia, Gates.
+          </AboutText>
+        </AboutInfo>
+      </About> */}
     </>
   );
 }

@@ -7,6 +7,7 @@ import { FiMail } from 'react-icons/fi';
 
 export const FooterContainer = styled.div`
   width: 1440px;
+  background-color: #ffffff;
 `;
 
 export const CustomerSupport = styled.div`
