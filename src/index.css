@@ -1,3 +1,53 @@
+@import 'modern-normalize/modern-normalize.css';
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 400;
+  src:
+    url('assets/fonts/Oswald-Regular.woff2') format('woff2'),
+    url('assets/fonts/Oswald-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 500;
+  src:
+    url('assets/fonts/Oswald-Medium.woff2') format('woff2'),
+    url('assets/fonts/Oswald-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-weight: 600;
+  src:
+    url('assets/fonts/Oswald-SemiBold.woff2') format('woff2'),
+    url('assets/fonts/Oswald-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src:
+    url('assets/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('assets/fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src:
+    url('assets/fonts/Poppins-Bold.woff2') format('woff2'),
+    url('assets/fonts/Poppins-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src:
+    url('assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/OpenSans-Regular.woff') format('woff');
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0 auto;
