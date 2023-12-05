@@ -24,6 +24,7 @@ import {
   ContactLink,
   SocialList,
   SocialItem,
+  IconWrapper,
   // ListWrapper
 } from './Footer.styled';
 
@@ -43,12 +44,16 @@ const Footer = () => {
 
         <SupportList>
           <SupportItem>
-            <PhoneIcon />
+            <IconWrapper>
+              <PhoneIcon />
+            </IconWrapper>
             <StyledLink to="tel:+3067-111-11-11">067-111-111-111</StyledLink>
           </SupportItem>
 
           <SupportItem>
-            <MailIcon />
+            <IconWrapper>
+              <MailIcon />
+            </IconWrapper>
             <StyledLink to="mailto:agro@gmail.com">agro@gmail.com</StyledLink>
           </SupportItem>
         </SupportList>

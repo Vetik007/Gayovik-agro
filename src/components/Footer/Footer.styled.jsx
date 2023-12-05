@@ -30,20 +30,27 @@ export const SupportItem = styled.li`
   align-items: center;
 `;
 
-export const PhoneIcon = styled(FiPhoneCall)`
-  width: 16px;
-  height: 16px;
-  color: #ffffff;
+export const IconWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
   background-color: #c00000;
-  padding: 12px;
+`;
+
+export const PhoneIcon = styled(FiPhoneCall)`
+  width: 24px;
+  height: 24px;
+  color: #ffffff;
+
+  /* padding: 12px; */
 `;
 
 export const MailIcon = styled(FiMail)`
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   color: #ffffff;
-  background-color: #c00000;
-  padding: 12px;
 `;
 
 export const StyledLink = styled(NavLink)`

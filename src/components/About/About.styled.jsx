@@ -66,10 +66,27 @@ export const AboutInfoItem = styled.li`
 
 export const AboutInfoIcon = styled.svg`
   position: absolute;
-  top: 0;
-  padding: 12px;
+  /* top: -50%;
+  left: -50%;
+  transform: translate(-50%, -50%); */
+  /* top: 0; */
+  /* padding: 24px; */
+  /* background-color: #c00000; */
+`;
+
+export const IconWrapper = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 48px;
+  height: 48px;
+  top: -48px;
+  padding: 24px;
   background-color: #c00000;
 `;
+
 export const AboutInfoTitle = styled.h2`
   position: absolute;
   top: 50%;

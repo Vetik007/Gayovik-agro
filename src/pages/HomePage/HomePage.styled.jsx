@@ -144,7 +144,7 @@ export const ShopCategoryItem = styled.li`
   gap: 4px;
   position: relative;
   width: 364px;
-  height: 118px;
+  height: 119px;
   border: 1px solid #e6e6e7;
   border-radius: 4px;
 `;
@@ -180,10 +180,6 @@ export const CategoryTitle = styled.h2`
   line-height: 21px;
   color: #c00000;
 `;
-
-
-
-
 
 export const At = styled.div``;
 export const Ag = styled.div``;

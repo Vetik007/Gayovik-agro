@@ -1,6 +1,7 @@
 import AboutImg from '../../assets/AboutImg.jpg';
 
 import sprite from '../../assets/sprite.svg';
+// import { IconWrapper } from '../Header/Header.styled';
 
 // import './HomePage.css';
 
@@ -17,6 +18,7 @@ import {
   AboutInfoTitle,
   ParallaxInfo,
   AboutInfoText,
+  IconWrapper,
 } from './About.styled';
 
 function AboutSection() {
@@ -41,9 +43,11 @@ function AboutSection() {
             <AboutInfoList>
               <AboutInfoItem>
                 <ParallaxInfo>
-                  <AboutInfoIcon width="24" height="24">
-                    <use href={`${sprite}#icon-truck`} />
-                  </AboutInfoIcon>
+                  <IconWrapper>
+                    <AboutInfoIcon width="24" height="24">
+                      <use href={`${sprite}#icon-truck`} />
+                    </AboutInfoIcon>
+                  </IconWrapper>
                   <AboutInfoTitle>ШВИДКА ДОСТАВКА</AboutInfoTitle>
                 </ParallaxInfo>
                 <AboutInfoText>
@@ -54,9 +58,11 @@ function AboutSection() {
 
               <AboutInfoItem>
                 <ParallaxInfo>
-                  <AboutInfoIcon width="24" height="24">
-                    <use href={`${sprite}#icon-truck`} />
-                  </AboutInfoIcon>
+                  <IconWrapper>
+                    <AboutInfoIcon width="24" height="24">
+                      <use href={`${sprite}#icon-price`} />
+                    </AboutInfoIcon>
+                  </IconWrapper>
                   <AboutInfoTitle>ПЕРСОНАЛЬНІ ЗНИЖКИ</AboutInfoTitle>
                 </ParallaxInfo>
                 <AboutInfoText>
@@ -67,9 +73,11 @@ function AboutSection() {
 
               <AboutInfoItem>
                 <ParallaxInfo>
-                  <AboutInfoIcon width="24" height="24">
-                    <use href={`${sprite}#icon-truck`} />
-                  </AboutInfoIcon>
+                  <IconWrapper>
+                    <AboutInfoIcon width="24" height="24">
+                      <use href={`${sprite}#icon-customer`} />
+                    </AboutInfoIcon>
+                  </IconWrapper>
                   <AboutInfoTitle>НАЙКРАЩА ПІДТРИМКА КЛІЄНТІВ</AboutInfoTitle>
                 </ParallaxInfo>
                 <AboutInfoText>
