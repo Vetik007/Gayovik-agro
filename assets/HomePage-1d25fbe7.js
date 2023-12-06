@@ -1,4 +1,4 @@
-import{s as e,j as t,a as s,F as P,N as T}from"./index-2b0060e1.js";const D="/Gayovik-agro/assets/AboutImg-f8585bca.jpg",G=e.section`
+import{s as e,j as t,a as s,F as P,N as T}from"./index-a1ce9b0c.js";const D="/Gayovik-agro/assets/AboutImg-f8585bca.jpg",G=e.section`
   background-color: #2b4d5e;
 `,S=e.div`
   height: 568px;
