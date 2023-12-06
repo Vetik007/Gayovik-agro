@@ -7,12 +7,16 @@ export const WrapperPassword = styled.div`
 `;
 
 export const StyledForm = styled(Form)`
-  width: 364px;
-  height: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* width: 364px; */
+  /* height: 196px; */
 
   @media screen and (min-width: 768px) {
-    width: 364px;
-    height: 196px;
+    /* width: 364px;
+    height: 196px; */
   }
 `;
 
@@ -23,8 +27,8 @@ export const WrapperInput = styled.div`
   margin-bottom: 28px;
 
   @media screen and (min-width: 768px) {
-    gap: 20px;
-    margin-bottom: 64px;
+    /* gap: 20px;
+    margin-bottom: 40px; */
   }
 `;
 
@@ -37,14 +41,21 @@ export const StyledField = styled(Field)`
   height: 46px;
   padding: 14px;
   border-radius: 12px;
+  background-color: #ebecf0;
+  border: none;
   /* background-color: transparent; */
   /* border: 1px solid rgba(239, 237, 232, 0.3); */
+
+  box-shadow:
+    inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #fff;
 
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 128.571%;
+  text-shadow: 1px 1px 1px #fff;
 
   /* color: rgba(239, 237, 232, 0.6); */
 
@@ -53,7 +64,7 @@ export const StyledField = styled(Field)`
   }
 
   @media screen and (min-width: 768px) {
-    width: 364px;
+    width: 340px;
     height: 52px;
     font-size: 16px;
     line-height: 150%;
@@ -74,6 +85,7 @@ export const MessageStyleError = styled.div`
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.12px;
+  text-shadow: 1px 1px 1px #fff;
 
   color: #d80027;
 `;
@@ -92,6 +104,7 @@ export const MessageStyleSuccess = styled.div`
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.12px;
+  text-shadow: 1px 1px 1px #fff;
 
   color: #3cbf61;
 `;
@@ -105,6 +118,12 @@ export const PasswordField = styled(Field)`
   height: 46px;
   padding: 14px;
   border-radius: 12px;
+  background-color: #ebecf0;
+
+  box-shadow:
+    inset 2px 2px 5px #babecc,
+    inset -5px -5px 10px #fff;
+  border: none;
   /* background-color: transparent; */
   /* border: 1px solid rgba(239, 237, 232, 0.3); */
   padding-right: 30px;
@@ -114,6 +133,7 @@ export const PasswordField = styled(Field)`
   font-style: normal;
   font-weight: 400;
   line-height: 128.571%;
+  text-shadow: 1px 1px 1px #fff;
 
   /* color: rgba(239, 237, 232, 0.6); */
 
@@ -122,7 +142,7 @@ export const PasswordField = styled(Field)`
   }
 
   @media screen and (min-width: 768px) {
-    width: 364px;
+    width: 340px;
     height: 52px;
     font-size: 16px;
     line-height: 150%;

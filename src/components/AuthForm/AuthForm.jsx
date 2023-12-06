@@ -32,16 +32,21 @@ const FormComponent = ({
     : { email: '', password: '' };
 
   const AuthSchema = Yup.object().shape({
-    name: nameIsShown ? Yup.string().required('Please input your name') : null,
+    name: nameIsShown
+      ? Yup.string().required('Будь ласка введіть своє ім`я')
+      : null,
     email: Yup.string()
-      .matches(/^\w+@[a-zA-Z_]+?.[a-zA-Z]{2,3}$/, 'Invalid E-mail format')
-      .required('Please input your E-mail!'),
+      .matches(
+        /^\w+@[a-zA-Z_]+?.[a-zA-Z]{2,3}$/,
+        'Невірний формат електронної пошти',
+      )
+      .required('Будь ласка, введіть свій E-mail!'),
     password: Yup.string()
       .matches(
         /(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{7,}/,
-        'Password must contain at least 6 letters and 1 number',
+        'Пароль повинен містити не менше 6 літер та 1 цифри',
       )
-      .required('Please input your password'),
+      .required('Будь ласка, введіть свій пароль'),
   });
 
   return (
@@ -51,16 +56,17 @@ const FormComponent = ({
       onSubmit={handleSubmit}
     >
       {({ handleBlur, touched, errors }) => (
-        <StyledForm autoComplete="off">
-          <WrapperInput>
+        <StyledForm autoComplete="off" className="StyledForm">
+          <WrapperInput className="WrapperInput">
             {nameIsShown && (
-              <div>
+              <div className="www">
                 <div>
                   <StyledField
                     type="text"
                     name="name"
                     placeholder="Name"
                     onBlur={handleBlur}
+                    className="StyledField"
                   />
                 </div>
 
@@ -76,7 +82,7 @@ const FormComponent = ({
                     <svg width="16" height="16" fill="currentColor">
                       <use href={sprite + `#icon-checkbox-success`} />
                     </svg>
-                    Success name
+                    Формат вірний
                   </MessageStyleSuccess>
                 ) : null}
               </div>
@@ -89,6 +95,7 @@ const FormComponent = ({
                   name="email"
                   placeholder="Email"
                   onBlur={handleBlur}
+                  className="StyledField"
                 />
               </div>
 
@@ -104,7 +111,7 @@ const FormComponent = ({
                   <svg width="16" height="16" fill="currentColor">
                     <use href={sprite + `#icon-checkbox-success`} />
                   </svg>
-                  Success email
+                  Формат email вірний
                 </MessageStyleSuccess>
               ) : null}
             </div>
@@ -142,7 +149,7 @@ const FormComponent = ({
                   <svg width="16" height="16" fill="currentColor">
                     <use href={sprite + `#icon-checkbox-success`} />
                   </svg>
-                  Success password
+                  Формат password вірний
                 </MessageStyleSuccess>
               ) : null}
             </div>

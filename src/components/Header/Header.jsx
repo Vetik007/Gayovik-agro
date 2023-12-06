@@ -80,7 +80,7 @@ export const Header = () => {
         <Register>
           <AuzLink to="/signup">SignUp</AuzLink>
           <AuzText>/</AuzText>
-          <AuzLink to="/signin">LOG IN</AuzLink>
+          <AuzLink to="/signup">LOG IN</AuzLink>
         </Register>
 
         <CartButton type="submit">

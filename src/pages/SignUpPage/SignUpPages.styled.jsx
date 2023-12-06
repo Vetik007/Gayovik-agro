@@ -1,21 +1,17 @@
 // import styled from 'styled-components';
 
-// import harvester3x from './../../images/harvester@3x.jpg';
-// // import desktop2x from './../../images/default-desktop-2x.jpg';
-// // import tablet1x from './../../images/default-tablet-1x.jpg';
-// // import tablet2x from './../../images/default-tablet-2x.jpg';
-// // import mobile1x from './../../images/default-mobile-1x.jpg';
-// // import mobile2x from './../../images/default-mobile-2x.jpg';
+import harvester3x from './../../images/harvester@3x.jpg';
+import harvester from './../../images/harvester.jpg';
 
-// export const Title = styled.h1`
-//   color: black;
-//   text-shadow:
-//     0 0 5px #00baff,
-//     0 0 10px #00baff,
-//     0 0 20px #00baff,
-//     0 0 40px #00baff,
-//     0 0 80px #00baff;
-// `;
+export const Title = styled.h1`
+  color: black;
+  text-shadow:
+    0 0 5px #00baff,
+    0 0 10px #00baff,
+    0 0 20px #00baff,
+    0 0 40px #00baff,
+    0 0 80px #00baff;
+`;
 
 // export const Container = styled.div`
 //   display: flex;
@@ -313,20 +309,25 @@
 import styled, { keyframes, css } from 'styled-components';
 
 export const Cont = styled.div`
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  background-color: var(--white);
-  background: url('https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg');
+  justify-content: center;
+
+  background-color: #e9e9e9;
+  background-image: url(${harvester3x});
+  /* background: url('https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg'); */
   background-attachment: fixed;
-  background-position: center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
+  /* display: grid; */
   height: 100vh;
-  place-items: center;
 `;
 
 export const Container = styled.div`
-  background-color: #e9e9e9;
+  /* background-color: #e9e9e9; */
+  background-color: #ebecf0;
   border-radius: 0.7rem;
   box-shadow:
     0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
@@ -341,6 +342,10 @@ export const Container = styled.div`
 `;
 
 export const SignUpContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   height: 100%;
   position: absolute;
   top: 0;
@@ -358,11 +363,16 @@ export const SignUpContainer = styled.div`
 `;
 
 export const SignInContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   height: 100%;
   position: absolute;
   top: 0;
-  transition: all 0.6s ease-in-out;
 
+  /* overflow: scroll; */
+  transition: all 0.6s ease-in-out;
   transform: translateX(100%);
 
   left: 0;
@@ -403,21 +413,30 @@ export const Input = styled.input`
 `;
 
 export const Button = styled.button`
-  background-color: #0367a6;
-  background-image: linear-gradient(90deg, #0367a6 0%, #008997 74%);
+  /* background-color: #0367a6; */
+  background-color: #ebecf0;
+  /* background-image: linear-gradient(90deg, #0367a6 0%, #008997 74%); */
   border-radius: 20px;
-  border: 1px solid #0367a6;
-  color: #e9e9e9;
+  /* border: 1px solid #0367a6; */
+  border: none;
+  color: #61677c;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 0 #fff;
   padding: 0.9rem 4rem;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
+  box-shadow:
+    -5px -5px 20px gray,
+    5px 5px 20px #babecc;
 
   &:active {
-    transform: scale(0.95);
+    /* transform: scale(0.95); */
+    box-shadow:
+      inset 5px 5px 6px gray,
+      inset -5px -5px 6px #fff;
   }
 
   &:focus {
@@ -446,9 +465,10 @@ export const OverlayContainer = styled.div`
 
 export const Overlay = styled.div`
   background-color: #008997;
-  background: url('https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg');
+  background-image: url(${harvester});
+  /* background: url('https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg'); */
   background-attachment: fixed;
-  background-position: center;
+  background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
