@@ -34,7 +34,6 @@
 
 // export default App
 
-
 // ==================================================================
 
 import { Route, Routes } from 'react-router-dom';
@@ -44,31 +43,33 @@ import SharedLayout from './components/SharedLayout/SharedLayout';
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const SignUpPage = lazy(() => import('./pages/SignUpPage/SignUpPage'));
 const SignInPage = lazy(() => import('./pages/SignInPage/SignInPage'));
-const FirstPage = lazy(() => import('./pages/FirstPage/FirstPage'))  ;
-const SecondPage = lazy(() => import('./pages/SecondPage/SecondPage')) ;
-const HalfPage = lazy(() => import('./pages/HalfPage/HalfPage'))  ;
-const ErrorPage = lazy(() => import('./pages/ErrorPage/ErrorPage')) ;
+const FirstPage = lazy(() => import('./pages/FirstPage/FirstPage'));
+const SecondPage = lazy(() => import('./pages/SecondPage/SecondPage'));
+const BrandPage = lazy(() => import('./pages/BrandPage/BrandPage'));
+const HalfPage = lazy(() => import('./pages/HalfPage/HalfPage'));
+const ErrorPage = lazy(() => import('./pages/ErrorPage/ErrorPage'));
+
+BrandPage;
 
 const test = import.meta.env.VITE_API_TEST;
 
 function App() {
   console.log(test);
   return (
-    
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
+    <Routes>
+      <Route path="/" element={<SharedLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/signin" element={<SignInPage />} />
-          <Route path="/first" element={<FirstPage />} />
-          <Route path="/second" element={<SecondPage />}>
-            <Route path=":half" element={<HalfPage />} />
-          </Route>
-
-          <Route path="*" element={<ErrorPage />} />
+        <Route path="/brand" element={<BrandPage />} />
+        <Route path="/type" element={<FirstPage />} />
+        <Route path="/catalog" element={<SecondPage />}>
+          <Route path=":half" element={<HalfPage />} />
         </Route>
-      </Routes>
-    
+
+        <Route path="*" element={<ErrorPage />} />
+      </Route>
+    </Routes>
   );
 }
 export default App;

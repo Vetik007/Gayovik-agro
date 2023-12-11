@@ -150,7 +150,7 @@ const SignUpPage = () => {
           <Overlay className="Overlay">
             <OverlayLeftPanel className="overlay--left">
               <Button className="button-signIn" id="signIn">
-                Війти
+                Вхід
               </Button>
             </OverlayLeftPanel>
             <OverlayRightPanel className="overlay--right">

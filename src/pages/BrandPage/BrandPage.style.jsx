@@ -49,7 +49,7 @@ export const StyledLink = styled(Link)`
   }
 `;
 
-export const CatalogList = styled.ul`
+export const BrandList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -57,7 +57,7 @@ export const CatalogList = styled.ul`
   margin-top: 20px;
 `;
 
-export const CatalogItem = styled.li`
+export const BrandItem = styled.li`
   font-size: 20px;
   list-style-type: disclosure-closed;
   color: black;

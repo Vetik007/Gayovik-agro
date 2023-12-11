@@ -31,6 +31,8 @@ import {
   AuzLink,
   AuzText,
   CartButton,
+  NavigationList,
+  // LogoIcon,
   // Basket
   // Images
 } from './Header.styled';
@@ -64,6 +66,9 @@ export const Header = () => {
 
       <FormWrapper>
         <Parallax>
+          {/* <LogoIcon width="16" height="16">
+            <use href={`${sprite}#icon-favic`} />
+          </LogoIcon> */}
           <LinkHome to="/">ГАЙОВИК-АГРО</LinkHome>
         </Parallax>
 
@@ -78,9 +83,9 @@ export const Header = () => {
         </FormStyled>
 
         <Register>
-          <AuzLink to="/signup">SignUp</AuzLink>
+          <AuzLink to="/signup"> РЕЄСТРАЦІЯ</AuzLink>
           <AuzText>/</AuzText>
-          <AuzLink to="/signup">LOG IN</AuzLink>
+          <AuzLink to="/signup">ВХІД</AuzLink>
         </Register>
 
         <CartButton type="submit">
@@ -91,26 +96,35 @@ export const Header = () => {
       </FormWrapper>
 
       <NavigationWrapper>
-        <Navigation>
-          <StyledLink to="/">
-            <IconWrapper>
-              <use href={`${sprite}#icon-logo`} />
-            </IconWrapper>
-            Пошук за брендом
-          </StyledLink>
+        <Navigation className="Navigation">
+          <NavigationList>
+            <li>
+              <StyledLink to="/brand" className="StyledLink">
+                <IconWrapper className="IconWrapper">
+                  <use href={`${sprite}#icon-logo`} />
+                </IconWrapper>
+                <span>Пошук за брендом</span>
+              </StyledLink>
+            </li>
 
-          <StyledLink to="/first">
-            <IconWrapper>
-              <use href={`${sprite}#icon-logo`} />
-            </IconWrapper>
-            Пошук за типом
-          </StyledLink>
-          <StyledLink to="/second">
-            <IconWrapper>
-              <use href={`${sprite}#icon-logo`} />
-            </IconWrapper>
-            Second
-          </StyledLink>
+            <li>
+              <StyledLink to="/type">
+                <IconWrapper>
+                  <use href={`${sprite}#icon-logo`} />
+                </IconWrapper>
+                <span>Пошук за типом</span>
+              </StyledLink>
+            </li>
+
+            <li>
+              <StyledLink to="/catalog">
+                <IconWrapper>
+                  <use href={`${sprite}#icon-logo`} />
+                </IconWrapper>
+                <span>Каталог</span>
+              </StyledLink>
+            </li>
+          </NavigationList>
         </Navigation>
       </NavigationWrapper>
     </HeaderContainer>
@@ -128,3 +142,5 @@ export const Header = () => {
 //           {/* <img src={ShoppingCart} alt="SVG image"></img> */}
 
 //         </Basket>
+
+// =======================================================================

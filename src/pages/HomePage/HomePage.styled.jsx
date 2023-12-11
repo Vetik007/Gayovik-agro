@@ -69,6 +69,19 @@ export const PromoButton = styled.button`
     box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
   }
 
+  /* &:hover {
+    color: #00baff;
+    text-shadow:
+      0 0 5px #00baff,
+      0 0 10px #00baff,
+      0 0 20px #00baff,
+      0 0 40px #00baff,
+      0 0 80px #00baff;
+    &::before,
+    &::after {
+      transform: scaleX(1);
+    } */
+
   &:before {
     content: '';
     position: absolute;
