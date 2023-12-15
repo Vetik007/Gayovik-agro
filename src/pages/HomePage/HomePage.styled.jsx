@@ -194,7 +194,10 @@ export const CategoryTitle = styled.h2`
   color: #c00000;
 `;
 
-export const At = styled.div``;
+export const SlCon = styled.div`
+  position: relative;
+  height: 100%;
+`;
 export const Ag = styled.div``;
 export const As = styled.div``;
 export const Ah = styled.div``;

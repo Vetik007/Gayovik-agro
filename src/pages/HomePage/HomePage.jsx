@@ -5,7 +5,7 @@
 import AboutSection from '../../components/About/About';
 import PopularProducts from '../../components/PopularSection/PopularSection';
 
-import HomePromoImg from '../../assets/HomePromo.jpg';
+// import HomePromoImg from '../../assets/HomePromo.jpg';
 import FilterImg from '../../assets/Filter.jpg';
 import HydraulicImg from '../../assets/Hydraulic.jpg';
 import EngineImg from '../../assets/Engine.jpg';
@@ -18,6 +18,8 @@ import Plow from '../../assets/Plow.jpg';
 // import AboutImg from '../../assets/AboutImg.jpg';
 
 import sprite from '../../assets/sprite.svg';
+
+import Slider from '../../components/Slider/Slider';
 
 // import './HomePage.css';
 
@@ -44,13 +46,17 @@ import {
   CategoryTitle,
   CategoriTitle,
   CategoriImg,
+  SlCon,
 } from './HomePage.styled';
 
 function HomePage() {
   return (
     <>
       <HomePromo>
-        <img src={HomePromoImg} alt="harvester" />
+        {/* <img src={HomePromoImg} alt="harvester" /> */}
+        <SlCon className="SlCon">
+          <Slider />
+        </SlCon>
 
         <PromoList>
           <PromoItem>
