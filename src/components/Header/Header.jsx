@@ -11,6 +11,7 @@ import sprite from '../../assets/sprite.svg';
 import {
   HeaderContainer,
   Navigation,
+  StyledLinkContact,
   StyledLink,
   IconWrapper,
   HeaderContact,
@@ -45,21 +46,25 @@ export const Header = () => {
         <ContactList>
           <ContactItem>
             <PhoneIcon />
-            <StyledLink to="tel:+3067-111-11-11">067-111-111-111</StyledLink>
+            <StyledLinkContact to="tel:+3067-111-11-11">
+              067-111-111-111
+            </StyledLinkContact>
           </ContactItem>
           <ContactItem>
             <MailIcon />
-            <StyledLink to="mailto:agro@gmail.com">agro@gmail.com</StyledLink>
+            <StyledLinkContact to="mailto:agro@gmail.com">
+              agro@gmail.com
+            </StyledLinkContact>
           </ContactItem>
           <ContactItem>
             <MapIcon />
-            <StyledLink
+            <StyledLinkContact
               to="https://maps.app.goo.gl/AQT1NfUeCHiqVSot7"
               target="blank"
               rel="noreferrer noopener nofollow"
             >
               Наше місцезнаходження
-            </StyledLink>
+            </StyledLinkContact>
           </ContactItem>
         </ContactList>
       </HeaderContact>

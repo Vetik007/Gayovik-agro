@@ -1,3 +1,7 @@
+import { FaFacebook } from 'react-icons/fa';
+import { FaTelegram } from 'react-icons/fa';
+import { FaViber } from 'react-icons/fa';
+
 import {
   FooterContainer,
   CustomerSupport,
@@ -25,6 +29,7 @@ import {
   SocialList,
   SocialItem,
   IconWrapper,
+  SocialText,
   // ListWrapper
 } from './Footer.styled';
 
@@ -107,9 +112,27 @@ const Footer = () => {
           </ContactLink>
 
           <SocialList>
-            <SocialItem>fasebook</SocialItem>
-            <SocialItem>telegram</SocialItem>
-            <SocialItem>viber</SocialItem>
+            <SocialItem>
+              <SocialText>fasebook</SocialText>
+              <span>
+                <FaFacebook />
+              </span>
+            </SocialItem>
+
+            <SocialItem>
+              <span>telegram</span>
+              <span>
+                <FaTelegram />
+              </span>
+            </SocialItem>
+
+            <SocialItem>
+              <span>viber</span>
+              <span>
+                <FaViber />
+              </span>
+            </SocialItem>
+
             <SocialItem></SocialItem>
           </SocialList>
         </ContactBlock>

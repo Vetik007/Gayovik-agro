@@ -157,6 +157,38 @@ export const StyledLink = styled(NavLink)`
   }
 `;
 
+export const StyledLinkContact = styled(NavLink)`
+  color: #ffffff;
+  text-shadow:
+    0 0 5px #00baff,
+    0 0 10px #00baff,
+    0 0 20px #00baff,
+    0 0 40px #00baff,
+    0 0 80px #00baff;
+
+  /* transition:
+    color 0.3s,
+    text-shadow 0.3s; */
+
+  margin: 0 20px;
+  padding: 10px;
+  position: relative;
+  transition:
+    0.3s ease-out 0.1s,
+    color 0.3s,
+    text-shadow 0.3s;
+
+  &:hover {
+    color: #00baff;
+    text-shadow:
+      0 0 5px #00baff,
+      0 0 10px #00baff,
+      0 0 20px #00baff,
+      0 0 40px #00baff,
+      0 0 80px #00baff;
+  }
+`;
+
 export const PhoneIcon = styled(FiPhoneCall)`
   width: 16px;
   height: 16px;
