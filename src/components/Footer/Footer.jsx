@@ -1,6 +1,10 @@
-import { FaFacebook } from 'react-icons/fa';
-import { FaTelegram } from 'react-icons/fa';
-import { FaViber } from 'react-icons/fa';
+// import { FaFacebook } from 'react-icons/fa';
+// import { FaFacebookF } from 'react-icons/fa';
+// import { FaTelegramPlane } from 'react-icons/fa';
+// import { FaPaperPlane } from 'react-icons/fa';
+// import { FaRegPaperPlane } from 'react-icons/fa';
+// import { FaTelegram } from 'react-icons/fa';
+// import { FaViber } from 'react-icons/fa';
 
 import {
   FooterContainer,
@@ -30,6 +34,10 @@ import {
   SocialItem,
   IconWrapper,
   SocialText,
+  SocialLink,
+  SocialIconFacebook,
+  SocialIconTelegram,
+  SocialIconViber,
   // ListWrapper
 } from './Footer.styled';
 
@@ -114,26 +122,28 @@ const Footer = () => {
           <SocialList>
             <SocialItem>
               <SocialText>fasebook</SocialText>
-              <span>
-                <FaFacebook />
-              </span>
+              <SocialLink>
+                <SocialIconFacebook />
+                {/* <FaFacebook /> */}
+              </SocialLink>
             </SocialItem>
 
             <SocialItem>
-              <span>telegram</span>
-              <span>
-                <FaTelegram />
-              </span>
+              <SocialText>telegram</SocialText>
+              <SocialLink>
+                <SocialIconTelegram />
+                {/* <FaPaperPlane /> */}
+                {/* <FaRegPaperPlane /> */}
+                {/* <FaTelegram /> */}
+              </SocialLink>
             </SocialItem>
 
             <SocialItem>
-              <span>viber</span>
-              <span>
-                <FaViber />
-              </span>
+              <SocialText>viber</SocialText>
+              <SocialLink>
+                <SocialIconViber />
+              </SocialLink>
             </SocialItem>
-
-            <SocialItem></SocialItem>
           </SocialList>
         </ContactBlock>
       </InfoSection>

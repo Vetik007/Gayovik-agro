@@ -5,8 +5,13 @@ import { FiPhoneCall } from 'react-icons/fi';
 
 import { FiMail } from 'react-icons/fi';
 
+import { FaFacebookF } from 'react-icons/fa';
+import { FaTelegramPlane } from 'react-icons/fa';
+import { FaViber } from 'react-icons/fa';
+
 export const FooterContainer = styled.div`
   width: 1440px;
+  height: 420px;
   background-color: #ffffff;
 `;
 
@@ -110,10 +115,13 @@ export const InfoSection = styled.div`
 `;
 
 export const ProductsTitle = styled.h2`
-  font-family: Oswald;
-  font-size: 18px;
+  /* font-family: Oswald; */
+  font-family: Rubik Lines;
+
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
+  /* color: #00baff; */
 `;
 
 export const ProductsList = styled.ul`
@@ -121,10 +129,21 @@ export const ProductsList = styled.ul`
   flex-direction: column;
   gap: 24px;
 
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
+  font-family: Lobster;
+  font-size: 20px;
+  /* font-weight: 400; */
   line-height: 24px;
+  font-weight: bold;
+
+  /* text-shadow:
+    0 0 5px #00baff,
+    0 0 10px #00baff,
+    0 0 20px #00baff,
+    0 0 40px #00baff,
+    0 0 80px #00baff;
+  transition:
+    color 0.3s,
+    text-shadow 0.3s; */
 `;
 
 export const ProductsItem = styled.li``;
@@ -134,8 +153,8 @@ export const PpoductLink = styled(NavLink)``;
 // ================================================
 
 export const InfoTitle = styled.h2`
-  font-family: Oswald;
-  font-size: 18px;
+  font-family: Rubik Lines;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
 `;
@@ -145,35 +164,57 @@ export const InfoList = styled.ul`
   flex-direction: column;
   gap: 24px;
 
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
+  font-family: Lobster;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 24px;
+
+  /* text-shadow:
+    0 0 5px #1fc01f,
+    0 0 10px #1fc01f,
+    0 0 20px #1fc01f,
+    0 0 40px #1fc01f,
+    0 0 80px #1fc01f;
+  transition:
+    color 0.3s,
+    text-shadow 0.3s; */
 `;
 
 export const InfoItem = styled.li``;
+
+// ====================================
 
 export const AuthList = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 24px;
 
-  font-family: Poppins;
-  font-size: 16px;
-  font-weight: 400;
+  font-family: Lobster;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 24px;
-`;
 
-// ====================================
+  /* text-shadow:
+    0 0 5px #00baff,
+    0 0 10px #00baff,
+    0 0 20px #00baff,
+    0 0 40px #00baff,
+    0 0 80px #00baff;
+  transition:
+    color 0.3s,
+    text-shadow 0.3s; */
+`;
 
 export const AuthItem = styled.li``;
 
 export const AuthTitle = styled.h2`
-  font-family: Oswald;
-  font-size: 18px;
+  font-family: Rubik Lines;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
 `;
+
+// ========================================
 
 export const ContactBlock = styled.div`
   display: flex;
@@ -182,21 +223,27 @@ export const ContactBlock = styled.div`
 `;
 
 export const ContactTitle = styled.h2`
-  font-family: Oswald;
-  font-size: 18px;
+  font-family: Rubik Lines;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 600;
 `;
 
-export const ContactLink = styled(NavLink)``;
+export const ContactLink = styled(NavLink)`
+  font-family: Lobster;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+`;
 
 // ==============================================
 export const SocialList = styled.ul`
   display: flex;
 
   gap: 24px;
+  margin-top: 20px;
 
-  font-family: Poppins;
+  font-family: Lobster;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -205,9 +252,9 @@ export const SocialList = styled.ul`
 export const SocialText = styled.span`
   position: absolute;
   top: 0;
-  font-size: 14px;
+  font-size: 18px;
   background: #ffffff;
-  color: #ffffff;
+  /* color: #ffffff; */
   padding: 5px 8px;
   border-radius: 5px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -225,13 +272,35 @@ export const SocialText = styled.span`
     left: 50%;
     transform: translate(-50%) rotate(45deg);
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    background: #1877f2;
+    color: #ffffff;
   }
+`;
+
+export const SocialIconFacebook = styled(FaFacebookF)`
+  width: 32px;
+  height: 32px;
+  fill: #1877f2;
+  /* color: #1877f2; */
+`;
+
+export const SocialIconTelegram = styled(FaTelegramPlane)`
+  width: 32px;
+  height: 32px;
+  fill: #1877f2;
+`;
+
+export const SocialIconViber = styled(FaViber)`
+  width: 32px;
+  height: 32px;
+  fill: #1877f2;
 `;
 
 export const SocialItem = styled.li`
   position: relative;
   background: #ffffff;
   border-radius: 50%;
+  border: 3px solid #1877f2;
   padding: 15px;
   margin: 10px;
   width: 50px;
@@ -243,15 +312,37 @@ export const SocialItem = styled.li`
   flex-direction: column;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  &:hover {
+    background: #1877f2;
+    border: 3px solid transparent;
+  }
+
   &:hover {
     ${SocialText} {
       top: -45px;
       opacity: 1;
       visibility: visible;
       pointer-events: auto;
+      text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+      background: #1877f2;
+      color: #ffffff;
+      transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      /* fill: #ffffff; */
     }
   }
+
+  &:hover {
+    ${SocialIconFacebook}, ${SocialIconTelegram}, ${SocialIconViber} {
+      /* color: #ffffff; */
+      transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      fill: #ffffff;
+    }
+  }
+`;
+
+export const SocialLink = styled.span`
+  display: flex;
 `;
 
 // ===============================================

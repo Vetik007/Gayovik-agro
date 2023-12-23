@@ -48,6 +48,22 @@
     url('assets/fonts/OpenSans-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Rubik Lines';
+
+  src:
+    url('assets/fonts/RubikLines-Regular.woff2') format('woff2'),
+    url('assets/fonts/RubikLines-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lobster';
+
+  src:
+    url('assets/fonts/Lobster-Regular.woff2') format('woff2'),
+    url('assets/fonts/Lobster-Regular.woff') format('woff');
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   margin: 0 auto;
