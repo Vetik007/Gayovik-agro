@@ -1,4 +1,4 @@
-import{L as x,j as f}from"./index-78ca9e2f.js";import{n as t}from"./emotion-styled.browser.esm-a856eb09.js";import{W as a}from"./App.styled-7d58d758.js";const n=t.div`
+import{L as o,j as f}from"./index-b5fe3b42.js";import{n as t}from"./emotion-styled.browser.esm-20f95cc8.js";import{W as s}from"./App.styled-bc9f8134.js";const x=t.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,7 +7,7 @@ import{L as x,j as f}from"./index-78ca9e2f.js";import{n as t}from"./emotion-styl
   /* width: 330px; */
   height: 500px;
   padding: 50px;
-`,s=t.h1`
+`,a=t.h1`
   display: flex;
   justify-content: center;
   color: #ffffff;
@@ -17,7 +17,7 @@ import{L as x,j as f}from"./index-78ca9e2f.js";import{n as t}from"./emotion-styl
     0 0 20px #00baff,
     0 0 40px #00baff,
     0 0 80px #00baff;
-`;t(x)`
+`;t(o)`
   padding: 8px 16px;
   color: #ffffff; /* White text color */
   text-shadow:
@@ -40,7 +40,7 @@ import{L as x,j as f}from"./index-78ca9e2f.js";import{n as t}from"./emotion-styl
       0 0 40px #00baff,
       0 0 80px #00baff;
   }
-`;const i=t.ul`
+`;const n=t.ul`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -58,4 +58,4 @@ import{L as x,j as f}from"./index-78ca9e2f.js";import{n as t}from"./emotion-styl
     0 0 80px #00baff;
 
   cursor: pointer;
-`,p=()=>f.jsx(a,{children:f.jsxs(n,{className:"Container",children:[f.jsx(s,{children:"На цій сторінці будє виводитись каталог брендів"}),f.jsx(s,{children:"з можливістю пошуку запчастин за брендом"}),f.jsx("div",{children:f.jsxs(i,{children:[f.jsx(e,{children:"Avia"}),f.jsx(e,{children:"Claas"}),f.jsx(e,{children:"Gates"}),f.jsx(e,{children:"INA"}),f.jsx(e,{children:"Kuhn"}),f.jsx(e,{children:"Lemken"}),f.jsx(e,{children:"SKF"}),f.jsx(e,{children:"Timken"}),f.jsx(e,{children:"..."})]})})]})});export{p as default};
+`,r=()=>f.jsx(s,{children:f.jsxs(x,{className:"Container",children:[f.jsx(a,{children:"На цій сторінці будє виводитись каталог всіх запчастин"}),f.jsx(a,{children:"Також буде можливість пошуку запчастин за маркою техніки"}),f.jsx("div",{children:f.jsxs(n,{children:[f.jsx(e,{children:"John Deere"}),f.jsx(e,{children:"Claas"}),f.jsx(e,{children:"Case IH"}),f.jsx(e,{children:"New Holland"}),f.jsx(e,{children:"Fendt"}),f.jsx(e,{children:"..."})]})})]})});export{r as default};

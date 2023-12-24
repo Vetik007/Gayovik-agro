@@ -1,4 +1,4 @@
-import{s as I,j as c,a as $,r as G,b as N,F as tt,N as it}from"./index-78ca9e2f.js";const xt="/Gayovik-agro/assets/AboutImg-f8585bca.jpg",wt=I.section`
+import{s as I,j as c,a as $,r as G,b as N,F as tt,N as it}from"./index-b5fe3b42.js";const xt="/Gayovik-agro/assets/AboutImg-f8585bca.jpg",wt=I.section`
   background-color: #2b4d5e;
 `,bt=I.div`
   height: 568px;
@@ -6,7 +6,7 @@ import{s as I,j as c,a as $,r as G,b as N,F as tt,N as it}from"./index-78ca9e2f.
   position: relative;
   width: 820px;
   height: 0;
-  border-top: 133px solid #c00000;
+  border-top: 133px solid #f5bd44;
   /* border-bottom: 72px solid #C00000; Высота трапеции */
   border-left: 0px solid transparent; /* Длина верхней стороны */
   border-right: 40px solid transparent; /* Длина верхней стороны */
