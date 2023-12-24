@@ -46,6 +46,8 @@ const SignInPage = lazy(() => import('./pages/SignInPage/SignInPage'));
 const FirstPage = lazy(() => import('./pages/FirstPage/FirstPage'));
 const SecondPage = lazy(() => import('./pages/SecondPage/SecondPage'));
 const BrandPage = lazy(() => import('./pages/BrandPage/BrandPage'));
+const DeliveryPage = lazy(() => import('./pages/DeliveryPage/DeliveryPage'));
+const PaymentPage = lazy(() => import('./pages/PaymentPage/PaymentPage'));
 const HalfPage = lazy(() => import('./pages/HalfPage/HalfPage'));
 const ErrorPage = lazy(() => import('./pages/ErrorPage/ErrorPage'));
 
@@ -62,6 +64,9 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/brand" element={<BrandPage />} />
+        <Route path="/delivery" element={<DeliveryPage />} />
+        <Route path="/payment" element={<PaymentPage />} />
+
         <Route path="/type" element={<FirstPage />} />
         <Route path="/catalog" element={<SecondPage />}>
           <Route path=":half" element={<HalfPage />} />

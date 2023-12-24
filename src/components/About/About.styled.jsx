@@ -14,7 +14,7 @@ export const Parallax = styled.div`
   position: relative;
   width: 820px;
   height: 0;
-  border-top: 133px solid #c00000;
+  border-top: 133px solid #f5bd44;
   /* border-bottom: 72px solid #C00000; Высота трапеции */
   border-left: 0px solid transparent; /* Длина верхней стороны */
   border-right: 40px solid transparent; /* Длина верхней стороны */

@@ -6,6 +6,7 @@
 // import { FaTelegram } from 'react-icons/fa';
 // import { FaViber } from 'react-icons/fa';
 
+import { Link } from 'react-router-dom';
 import {
   FooterContainer,
   CustomerSupport,
@@ -92,9 +93,13 @@ const Footer = () => {
             <InfoTitle>ПИТАННЯ</InfoTitle>
           </InfoItem>
 
-          <InfoItem>Оплата</InfoItem>
+          <InfoItem>
+            <Link to="./payment">Оплата</Link>
+          </InfoItem>
 
-          <InfoItem>Доставка</InfoItem>
+          <InfoItem>
+            <Link to="./delivery">Доставка</Link>
+          </InfoItem>
 
           <InfoItem>Повернення</InfoItem>
         </InfoList>
